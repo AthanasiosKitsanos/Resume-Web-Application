@@ -5,31 +5,15 @@ namespace ResumeProject.Models;
 
 public class UserAccount
 {
+    public int UserAccountId { get; set; }
     public string? UserName { get; set; }
     public string? UserPassword { get; set; }
 
-    [Required]
-    public string? FirstName { get; set; }
+    public string? Role => IsAdmin == true ? "Admin" : "User";
 
-    [Required]
-    public string? LastName { get; set; }
+    public bool? IsAdmin { get; set; } = false;
 
-    [Required]
-    [DataType(DataType.Date)]
-    public DateTime DateOfBirth { get; set; }
-    public int Age 
-    { 
-        get
-        {
-            return Age;
-        }
-        set
-        {
-            value = DateOfBirth.Year - DateTime.Now.Year; 
-            Age = value;
-        }    
-    }
+    public User? User { get; set; }
 
-    [EmailAddress]
-    public string? Email { get; set; }
+    public int UserId { get; set; }
 }
