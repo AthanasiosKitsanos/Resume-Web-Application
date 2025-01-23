@@ -4,5 +4,5 @@ namespace ResumeProject.Service;
 
 public interface IService
 {
-
+    
 }
