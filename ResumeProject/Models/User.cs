@@ -19,7 +19,7 @@ public class User
 
     public int Age => DateTime.Now.Year - DateOfBirth.Year;
 
-
+    [Required]
     [EmailAddress]
     public string? Email { get; set; }
 
