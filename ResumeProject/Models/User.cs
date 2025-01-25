@@ -1,5 +1,6 @@
 using System;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ResumeProject.Models;
 
@@ -14,10 +15,10 @@ public class User
     public string? LastName { get; set; }
 
     [Required]
-    [DataType(DataType.Date)]
+    [Column(TypeName = "DATE")]
     public DateTime DateOfBirth { get; set; }
 
-    public int Age => DateTime.Now.Year - DateOfBirth.Year;
+    public int Age { get; set; }
 
     [Required]
     [EmailAddress]
