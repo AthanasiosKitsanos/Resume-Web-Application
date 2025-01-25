@@ -1,13 +1,18 @@
-using Microsoft.EntityFrameworkCore;
 using ResumeProject.Models;
-using ResumeProject.Data;
+using ResumeProject.ContextDb;
+using Microsoft.EntityFrameworkCore;
 
+namespace ResumeProject;
 
-var builder = WebApplication.CreateBuilder(args);
+class Program
+{
+    static void Main(string[] args)
+    {
+        var builder = WebApplication.CreateBuilder(args);
+        builder.Services.AddDbContext<AppDbContext>(); // We add to the Dependency Injection container the AppDbContext
 
-var connectionString = builder.Configuration.GetConnectionString("UserAccounts") ?? "Data Source=ResumaAppDB.db";
-builder.Services.AddSqlite<AppDbContext>(connectionString);
+        var app = builder.Build();
 
-var app = builder.Build();
-
-app.Run();
+        app.Run();
+    }
+}
