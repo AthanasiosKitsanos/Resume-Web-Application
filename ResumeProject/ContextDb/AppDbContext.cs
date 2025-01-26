@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ResumeProject.ContextDb;
 
-public class AppDbContext: IdentityDbContext<ApplicationUser> // It creates a DbSet of the ApplicationUser automaticaly
+public class AppDbContext: IdentityDbContext<ApplicationUser> // IdentityDbContext creates a tables for managing the user data in ApplicationUser
 {
     public AppDbContext(DbContextOptions<AppDbContext> options): base(options)
     {
