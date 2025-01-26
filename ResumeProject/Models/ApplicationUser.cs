@@ -7,7 +7,7 @@ namespace ResumeProject.Models;
 public class ApplicationUser: IdentityUser // IdentiryUser already provides the necessary properties for authentication like UserName, Email, PasswordHash, etc.
 {   
     [Required]
-    public string? FistName { get; set; }
+    public string? FirstName { get; set; }
 
     [Required]
     public string? LastName { get; set; }
