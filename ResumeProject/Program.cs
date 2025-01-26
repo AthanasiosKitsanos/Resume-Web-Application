@@ -16,8 +16,10 @@ class Program
     {
         var builder = WebApplication.CreateBuilder(args);
         
-        builder.Services.AddRazorPages();
-        builder.Services.AddControllers();
+        // Add services to the containers
+        builder.Services.AddRazorPages(); // To use Razor pages
+        builder.Services.AddControllers(); // To use controllers
+        builder.Services.AddServerSideBlazor(); // To use Blazor in the server's side
 
         // Add Identity and configure JWT authentication
         builder.Services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
@@ -45,6 +47,7 @@ class Program
         var app = builder.Build();
 
         app.MapRazorPages();
+        app.MapBlazorHub();
 
         app.Run();
     }
