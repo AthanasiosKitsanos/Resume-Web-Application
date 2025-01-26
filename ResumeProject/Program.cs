@@ -1,7 +1,12 @@
 using ResumeProject.Models;
-using ResumeProject.ContextDb;
 using Microsoft.EntityFrameworkCore;
-using ResumeProject.Service;
+using ResumeProject.ContextDb;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.AspNetCore.Identity;
+using System.Text;
+using ResumeProject.Services;
+
 
 namespace ResumeProject;
 
@@ -10,20 +15,36 @@ class Program
     static void Main(string[] args)
     {
         var builder = WebApplication.CreateBuilder(args);
-
-        builder.Services.AddScoped<UserService>();
-        builder.Services.AddScoped<UserAccountService>();
-
-        builder.Services.AddDbContext<AppDbContext>(); // We add to the Dependency Injection container the AppDbContext
         
-        builder.Services.AddServerSideBlazor();
         builder.Services.AddRazorPages();
-        
-        builder.Services.AddRazorComponents();
+        builder.Services.AddControllers();
 
+        // Add Identity and configure JWT authentication
+        builder.Services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
+
+        builder.Services.AddAuthentication(options =>
+        {
+            options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+            options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+        })
+        .AddJwtBearer(options =>
+        {
+            options.TokenValidationParameters = new TokenValidationParameters
+            {
+                ValidateIssuer = true,
+                ValidateAudience = true,
+                ValidateLifetime = true,
+                ValidateIssuerSigningKey = true,
+                ValidIssuer = "YourIssuer",
+                ValidAudience = "YourAudience",
+                IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("YourSuperSecretKey"))
+            };   
+        });
+
+        builder.Services.AddScoped<IUserService, UserService>();
         var app = builder.Build();
 
-        
+        app.MapRazorPages();
 
         app.Run();
     }

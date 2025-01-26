@@ -1,12 +1,20 @@
 {
   "Version": 1,
-  "Hash": "inJyfSllLXH9xn/NP5aZsF2en2KmDN9ARCkyAWGRCw8=",
+  "Hash": "evmWguyMofcp3LAmhxaZlTFn1fzr1uDgyDH1ib83+iA=",
   "Source": "ResumeProject",
   "BasePath": "_content/ResumeProject",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ResumeProject\\wwwroot",
+      "Source": "ResumeProject",
+      "ContentRoot": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\",
+      "BasePath": "_content/ResumeProject",
+      "Pattern": "**"
+    }
+  ],
   "Assets": [],
   "Endpoints": []
 }
