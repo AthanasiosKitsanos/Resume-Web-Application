@@ -6,13 +6,14 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.AspNetCore.Identity;
 using System.Text;
 using ResumeProject.Services;
-
+using ResumeProject.Data;
+using ResumeProject.Settings;
 
 namespace ResumeProject;
 
 class Program
 {
-    static void Main(string[] args)
+    static async Task Main(string[] args)
     {
         var builder = WebApplication.CreateBuilder(args);
         
@@ -22,7 +23,11 @@ class Program
         builder.Services.AddServerSideBlazor(); // To use Blazor in server's side
 
         // Add Identity and configure JWT authentication
+        builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlite("Data Source=ResumeProject.db"));
         builder.Services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
+
+        var jwtSettings = builder.Configuration.GetSection("JwtSettings");
+        builder.Services.Configure<JwtSettings>(jwtSettings);
 
         builder.Services.AddAuthentication(options =>
         {
@@ -31,23 +36,35 @@ class Program
         })
         .AddJwtBearer(options =>
         {
+            var jwtConfig = jwtSettings.Get<JwtSettings>();
+
             options.TokenValidationParameters = new TokenValidationParameters
             {
                 ValidateIssuer = true,
                 ValidateAudience = true,
                 ValidateLifetime = true,
                 ValidateIssuerSigningKey = true,
-                ValidIssuer = "YourIssuer",
-                ValidAudience = "YourAudience",
-                IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("YourSuperSecretKey"))
+                ValidIssuer = jwtConfig!.Issuer,
+                ValidAudience = jwtConfig.Audience,
+                IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtConfig.SectretKey!))
             };   
         });
 
         builder.Services.AddScoped<IUserService, UserService>();
         var app = builder.Build();
 
+        app.UseAuthentication();
+        app.UseAuthorization();
+        app.MapControllers();
         app.MapRazorPages();
         app.MapBlazorHub();
+
+        using(var scope = app.Services.CreateScope())
+        {
+            var services = scope.ServiceProvider;
+            var userManager = services.GetRequiredService<UserManager<ApplicationUser>>();
+            await SeedData.Initialize(services, userManager);
+        }
 
         app.Run();
     }
