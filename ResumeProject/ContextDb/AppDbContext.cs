@@ -11,14 +11,6 @@ public class AppDbContext: IdentityDbContext<ApplicationUser> // IdentityDbConte
 
     }
 
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-    {
-        if(!optionsBuilder.IsConfigured)
-        {
-            optionsBuilder.UseSqlite("Data Source=ResumeProject.db");
-        }
-    }
-
     protected override void OnModelCreating(ModelBuilder builder)
     {
         base.OnModelCreating(builder);
