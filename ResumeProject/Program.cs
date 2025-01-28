@@ -26,8 +26,7 @@ class Program
         builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlite("Data Source=ResumeProject.db"));
         builder.Services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
 
-        var jwtSettings = builder.Configuration.GetSection("JwtSettings");
-        builder.Services.Configure<JwtSettings>(jwtSettings);
+        var jwtSettings = SharedSettings.GetJwtSettings();
 
         builder.Services.AddAuthentication(options =>
         {
@@ -36,17 +35,15 @@ class Program
         })
         .AddJwtBearer(options =>
         {
-            var jwtConfig = jwtSettings.Get<JwtSettings>();
-
             options.TokenValidationParameters = new TokenValidationParameters
             {
                 ValidateIssuer = true,
                 ValidateAudience = true,
                 ValidateLifetime = true,
                 ValidateIssuerSigningKey = true,
-                ValidIssuer = jwtConfig!.Issuer,
-                ValidAudience = jwtConfig.Audience,
-                IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtConfig.SectretKey!))
+                ValidIssuer = jwtSettings!.Issuer,
+                ValidAudience = jwtSettings.Audience,
+                IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSettings.SectretKey!))
             };   
         });
 

@@ -23,17 +23,13 @@ public class SeedData
             }
         }
 
+        var userSettings = SharedSettings.GetUserSettings();
+
         // Add default admin user
-        var defaultUser = await userManager.FindByEmailAsync("kitsanos.dev@gmail.com");
+        var defaultUser = await userManager.FindByEmailAsync(userSettings?.Email!);
 
         if(defaultUser is null)
         {
-            var configuration = new ConfigurationBuilder()
-            .SetBasePath(AppDomain.CurrentDomain.BaseDirectory)
-            .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
-            .Build();
-            var userSettings = configuration.GetSection("UserSettings").Get<UserSettings>();
-
             var admin = new ApplicationUser
             {
                 UserName = userSettings!.UserName,
@@ -42,7 +38,7 @@ public class SeedData
                 LastName = userSettings.LastName,
             };
 
-            await userManager.CreateAsync(admin, "Zizoulini11524!");
+            await userManager.CreateAsync(admin, userSettings.Password!);
             await userManager.AddToRoleAsync(admin, "Admin");
         }
     }
