@@ -13,7 +13,7 @@ public class ApplicationUser: IdentityUser // IdentiryUser already provides the 
     public string? LastName { get; set; }
 
     [Required]
-    public DateOnly DateOfBirth { get; set; } 
+    public DateTime DateOfBirth { get; set; } 
 
     public int Age { get; set; }
 }
