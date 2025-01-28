@@ -12,9 +12,35 @@ public class UserService: IUserService
         _userManager = userManager;
     }
 
-    public async Task<IdentityResult> RegisterUserAsync(ApplicationUser user, string password)
+    
+    // Update an account
+    public async Task<IdentityResult> UpdateUserAsync(ApplicationUser user)
     {
-        var result = await _userManager.CreateAsync(user, password); // We use CreateAsync to create a new user.
-        return result;
+        var existingUser = await _userManager.FindByIdAsync(user.Id);
+
+        if(existingUser is null)
+        {
+            return IdentityResult.Failed();
+        }
+
+        existingUser.FirstName = user.FirstName;
+        existingUser.LastName = user.LastName;
+        existingUser.Email = user.Email;
+        existingUser.PhoneNumber = user.PhoneNumber;
+
+        return await _userManager.UpdateAsync(existingUser);
+    }
+
+    // Delete an account
+    public async Task<IdentityResult> DeleteUserAsync(string userid)
+    {
+        var user = await _userManager.FindByIdAsync(userid);
+
+        if(user is null)
+        {
+            return IdentityResult.Failed();
+        }
+
+        return await _userManager.DeleteAsync(user);
     }
 }
