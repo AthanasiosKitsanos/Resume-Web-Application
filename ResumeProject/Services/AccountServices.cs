@@ -24,8 +24,10 @@ public class AccountServices
         {
             user.Age--;
         }
-
+        
         var result = await _userManager.CreateAsync(user, password); // We use CreateAsync to create a new user.
+        await _userManager.AddToRoleAsync(user, "User");
+        
         return result;
     }
 
