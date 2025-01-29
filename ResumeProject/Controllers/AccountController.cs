@@ -30,7 +30,7 @@ public class AccountController: ControllerBase
             DateOfBirth = DateTime.Now
         };
 
-        var result = await _accountServices.RegisterUserAsync(user, model.Password);
+        var result = await _accountServices.RegisterUserAsync(user, model.Password!);
 
         if (!result.Succeeded)
         {
@@ -43,7 +43,7 @@ public class AccountController: ControllerBase
     [HttpPost("login")]
     public async Task<IActionResult> LogIn([FromBody] LogInDTO model)
     {
-        var result = await _accountServices.LoginUserAsync(model.Email, model.Password, model.RememberMe);
+        var result = await _accountServices.LoginUserAsync(model.Email!, model.Password!, model.RememberMe);
 
         if(!result.Succeeded)
         {
