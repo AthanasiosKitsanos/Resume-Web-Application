@@ -26,7 +26,7 @@ public class SeedData
         var userSettings = SharedSettings.GetUserSettings();
 
         // Add default admin user
-        var defaultUser = await userManager.FindByEmailAsync(userSettings?.Email!);
+        var defaultUser = await userManager.FindByEmailAsync(userSettings.Email!);
 
         if(defaultUser is null)
         {

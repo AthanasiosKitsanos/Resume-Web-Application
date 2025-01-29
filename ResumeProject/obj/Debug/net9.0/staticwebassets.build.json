@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TPCazlu+smMvACE6wuK8M/k7DcwFEaEwzzzIj9OR6Iw=",
+  "Hash": "evmWguyMofcp3LAmhxaZlTFn1fzr1uDgyDH1ib83+iA=",
   "Source": "ResumeProject",
   "BasePath": "_content/ResumeProject",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "ResumeProject\\wwwroot",
       "Source": "ResumeProject",
-      "ContentRoot": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\",
       "BasePath": "_content/ResumeProject",
       "Pattern": "**"
     }
