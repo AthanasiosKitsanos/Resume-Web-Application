@@ -38,7 +38,7 @@ public class AuthService
 
         var jwtSeetings = SharedSettings.GetJwtSettings();
 
-        var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSeetings.SectretKey!));
+        var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSeetings.SecretKey!));
         var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
         var token = new JwtSecurityToken
