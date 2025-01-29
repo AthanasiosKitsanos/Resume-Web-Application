@@ -26,6 +26,7 @@ public class UserService: IUserService
         existingUser.FirstName = user.FirstName;
         existingUser.LastName = user.LastName;
         existingUser.Email = user.Email;
+        existingUser.UserName = user.Email;
         existingUser.PhoneNumber = user.PhoneNumber;
 
         return await _userManager.UpdateAsync(existingUser);
