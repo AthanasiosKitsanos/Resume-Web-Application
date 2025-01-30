@@ -1,6 +1,13 @@
-using System;
-using ResumeProject.Models;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.Configuration;
+using Microsoft.IdentityModel.Tokens;
+using ResumeProject.Models;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
+using System.Threading.Tasks;
+using ResumeProject.Settings;
+
 
 namespace ResumeProject.Services;
 
@@ -33,16 +40,38 @@ public class AccountServices
 
     // Log In user
 
-    public async Task<SignInResult> LoginUserAsync(string email, string password, bool rememberMe = false)
+    public async Task<string> LoginUserAsync(string email, string password, bool rememberMe = false)
     {
         var user = await _userManager.FindByEmailAsync(email);
 
-        if(user is null)
+        if(user is null || !await _userManager.CheckPasswordAsync(user, password))
         {
-            return SignInResult.Failed;
+            return null!;
         }
 
-        return await _signInManager.PasswordSignInAsync(user.UserName!, password, rememberMe, lockoutOnFailure: false);
+        var roles = _userManager.GetRolesAsync(user);
+
+        var claims = new[]
+        {
+            new Claim(ClaimTypes.Name, user.UserName!),
+            new Claim(ClaimTypes.NameIdentifier, user.Id)
+        };
+
+        var jwtSettings = SharedSettings.GetJwtSettings();
+
+        var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSettings.SecretKey!));
+        var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+
+        var token = new JwtSecurityToken
+        (
+            issuer: jwtSettings.Issuer,
+            audience: jwtSettings.Audience,
+            claims: claims,
+            expires: DateTime.Now.AddHours(1),
+            signingCredentials: creds
+        );
+
+        return new JwtSecurityTokenHandler().WriteToken(token);
     }
 
     // Log out user
