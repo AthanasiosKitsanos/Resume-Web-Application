@@ -43,14 +43,14 @@ public class AccountController: ControllerBase
     [HttpPost("login")]
     public async Task<IActionResult> LogIn([FromBody] LogInDTO model)
     {
-        var result = await _accountServices.LoginUserAsync(model.Email!, model.Password!, model.RememberMe);
+        var token = await _accountServices.LoginUserAsync(model.Email!, model.Password!, model.RememberMe);
 
-        if(!result.Succeeded)
+        if(token is null)
         {
             return Unauthorized("Invalide Username or Password, please try again");
         }
 
-        return Ok("You are logged in");
+        return Ok(new {Token = token});
     }
 
     [HttpPost("logout")]
