@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using ResumeProject.Controllers;
 
 namespace ResumeProject.Pages
 {
@@ -8,6 +9,7 @@ namespace ResumeProject.Pages
         public string? FullName { get; set; }
         public void OnGet()
         {
+            
             FullName = "Thanos";
         }
     }
