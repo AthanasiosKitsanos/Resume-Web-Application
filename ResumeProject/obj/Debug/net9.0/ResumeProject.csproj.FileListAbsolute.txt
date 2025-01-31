@@ -167,3 +167,4 @@ C:\Users\PC\source\repos\Portofolio\ResumeWebApp\ResumeProject\bin\Debug\net9.0\
 c:\Users\PC\source\repos\Portofolio\ResumeWebApp\ResumeProject\bin\Debug\net9.0\ResumeProject.staticwebassets.runtime.json
 c:\Users\PC\source\repos\Portofolio\ResumeWebApp\ResumeProject\obj\Debug\net9.0\ResumeProject.RazorAssemblyInfo.cache
 c:\Users\PC\source\repos\Portofolio\ResumeWebApp\ResumeProject\obj\Debug\net9.0\ResumeProject.RazorAssemblyInfo.cs
+c:\Users\PC\source\repos\Portofolio\ResumeWebApp\ResumeProject\obj\Debug\net9.0\compressed\na352tk5ox-m1zwmpiovm.gz

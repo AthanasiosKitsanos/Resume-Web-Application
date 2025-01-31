@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/ResumeProject/styles.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\styles.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-lowOojXV4RPO3EhrUnDEUz1s\u002Bt3mxFFRyAQddluh9Aw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"582"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022lowOojXV4RPO3EhrUnDEUz1s\u002Bt3mxFFRyAQddluh9Aw=\u0022"},{"Name":"Last-Modified","Value":"Fri, 31 Jan 2025 20:29:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ResumeProject/styles.m1zwmpiovm.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\styles.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"m1zwmpiovm"},{"Name":"integrity","Value":"sha256-lowOojXV4RPO3EhrUnDEUz1s\u002Bt3mxFFRyAQddluh9Aw="},{"Name":"label","Value":"_content/ResumeProject/styles.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"582"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022lowOojXV4RPO3EhrUnDEUz1s\u002Bt3mxFFRyAQddluh9Aw=\u0022"},{"Name":"Last-Modified","Value":"Fri, 31 Jan 2025 20:29:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

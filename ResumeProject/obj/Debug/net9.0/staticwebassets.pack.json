@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\styles.css",
+      "PackagePath": "staticwebassets\\styles.css"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.ResumeProject.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.ResumeProject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.ResumeProject.props",
+      "PackagePath": "build\\ResumeProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.ResumeProject.props",
+      "PackagePath": "buildMultiTargeting\\ResumeProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.ResumeProject.props",
+      "PackagePath": "buildTransitive\\ResumeProject.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
