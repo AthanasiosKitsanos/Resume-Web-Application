@@ -1,17 +1,14 @@
 ﻿@page
 @model ResumeProject.Pages.IndexModel
-@using ResumeProject.Models
+@{
+    ViewData["Title"] = "Home";
+}
 
-<!DOCTYPE html>
-<html lang="en">
+<h1 class="center">Welcome to ResumeProject</h1>
+<p>
+    
+</p>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Welcome to ResumeProject</title>
-    </head>
-
-    <body>
-        <h1>Hello, @Model.FullName!</h1>
-    </body>
-</html>
+<p>
+    To get started, please <a href="/Pages/Register.cshtml">register</a> or <a href="/Pages/LogIn.cshtml">log in</a>.
+</p>
