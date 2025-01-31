@@ -50,6 +50,7 @@ class Program
         builder.Services.AddScoped<IUserService, UserService>();
         var app = builder.Build();
 
+        app.UseStaticFiles();
         app.UseAuthentication();
         app.UseAuthorization();
         app.MapControllers();
