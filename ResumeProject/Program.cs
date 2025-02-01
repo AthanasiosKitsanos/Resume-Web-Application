@@ -47,6 +47,7 @@ class Program
             };   
         });
 
+        builder.Services.AddScoped<AccountServices>();
         builder.Services.AddScoped<IUserService, UserService>();
         var app = builder.Build();
 
