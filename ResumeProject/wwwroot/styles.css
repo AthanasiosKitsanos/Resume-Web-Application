@@ -31,3 +31,15 @@ body {
 .center{
     text-align: center;
 }
+
+.button{
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    font: inherit;
+}
+
+.button :hover{
+    text-decoration: none;
+}
