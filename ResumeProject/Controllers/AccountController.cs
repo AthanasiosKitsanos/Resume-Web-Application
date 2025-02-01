@@ -9,7 +9,7 @@ namespace ResumeProject.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
-public class AccountController: ControllerBase
+public class AccountController: Controller
 {
     private readonly AccountServices _accountServices;
 
@@ -50,7 +50,7 @@ public class AccountController: ControllerBase
             return Unauthorized("Invalide Username or Password, please try again");
         }
 
-        return Ok(new {Token = token});
+        return RedirectToAction("Index", "Home");
     }
 
     [HttpPost("logout")]
@@ -58,6 +58,31 @@ public class AccountController: ControllerBase
     {
         await _accountServices.LogOutUser();
 
-        return Ok("Logged out succesfully");
+        return RedirectToAction("Index", "Home");
+    }
+
+    public bool IsLoggedIn()
+    {   
+        if(_accountServices.IsLoggedIn())
+        {
+            return true;
+        }
+
+        return false;
+    }
+
+    public async Task<IActionResult> GetUsersName()
+    {
+        // Call the GetUserName method from AccountServices
+        var userName = await _accountServices.GetUserName();
+
+        // If userName is empty (meaning no user is logged in), return a 404 or other status
+        if (string.IsNullOrEmpty(userName))
+        {
+            return NotFound("No user is logged in.");
+        }
+
+        // Return the username in the response
+        return Ok(userName);
     }
 }
