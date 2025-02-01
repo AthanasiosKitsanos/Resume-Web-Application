@@ -15,11 +15,13 @@ public class AccountServices
 {
     private readonly UserManager<ApplicationUser> _userManager;
     private readonly SignInManager<ApplicationUser> _signInManager;
+    private readonly IHttpContextAccessor _httpContextAccessor;
 
-    public AccountServices(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager)
+    public AccountServices(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager, IHttpContextAccessor httpContextAccessor)
     {
         _userManager = userManager;
         _signInManager = signInManager;
+        _httpContextAccessor = httpContextAccessor;
     }
 
     // Register a new user
@@ -78,5 +80,22 @@ public class AccountServices
     public async Task LogOutUser()
     {
         await _signInManager.SignOutAsync();
+    }
+
+    public bool IsLoggedIn()
+    {
+        return _signInManager.IsSignedIn(_httpContextAccessor.HttpContext!.User);
+    }
+
+    public async Task<string> GetUserName()
+    {
+        var user = await _userManager.GetUserAsync(_httpContextAccessor.HttpContext!.User);
+
+        if(user is null)
+        {
+            return null!;
+        }
+
+        return await _userManager.GetUserNameAsync(user);
     }
 }
