@@ -1,0 +1,57 @@
+﻿@page
+@model ResumeProject.Pages.Account.RegisterModel
+@{
+    ViewData["Title"] = "Register";
+}
+<h2>Register</h2>
+
+<form method="post">
+    <div>
+        <label>Email:</label>
+        <input type="email" asp-for="RegisterDto.Email" required/>
+        <span asp-validation-for="RegisterDto.Email" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label>Password:</label>
+        <input type="password" asp-for="RegisterDto.Password" required />
+        <span asp-validation-for="RegisterDto.Password" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label>First Name:</label>
+        <input asp-for="RegisterDto.FirstName" required />
+        <span asp-validation-for="RegisterDto.FirstName" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label>Last Name:</label>
+        <input asp-for="RegisterDto.LastName" required />
+        <span asp-validation-for="RegisterDto.LastName" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label>Date of Birth:</label>
+        <input asp-for="RegisterDto.DateOfBirth" type="date" required />
+        <span asp-validation-for="RegisterDto.DateOfBirth" class="text-danger"></span>
+    </div>
+
+    <button type="submit">Register</button>
+</form>
+
+@foreach(var error in ViewData.ModelState.Values.SelectMany(v=> v.Errors))
+{
+    <p style="color: red">@error.ErrorMessage</p>        
+}
+
+@if(!ModelState.IsValid)
+{
+    <div>
+        <ul>
+            @foreach (var error in ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <li>@error.ErrorMessage</li>
+            }
+        </ul>
+    </div>
+}

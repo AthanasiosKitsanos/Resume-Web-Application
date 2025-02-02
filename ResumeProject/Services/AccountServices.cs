@@ -35,6 +35,7 @@ public class AccountServices
         }
         
         var result = await _userManager.CreateAsync(user, password); // We use CreateAsync to create a new user.
+        
         await _userManager.AddToRoleAsync(user, "User");
         
         return result;
@@ -82,20 +83,57 @@ public class AccountServices
         await _signInManager.SignOutAsync();
     }
 
+    public async Task<IdentityResult> UpdateUserAsync(ApplicationUser user)
+    {
+        var existingUser = await _userManager.FindByIdAsync(user.Id);
+
+        if(existingUser is null)
+        {
+            return IdentityResult.Failed();
+        }
+
+        existingUser.FirstName = user.FirstName;
+        existingUser.LastName = user.LastName;
+        existingUser.Email = user.Email;
+        existingUser.UserName = user.Email;
+        existingUser.PhoneNumber = user.PhoneNumber;
+
+        return await _userManager.UpdateAsync(existingUser);
+    }
+
+    // Delete an account
+    public async Task<IdentityResult> DeleteUserAsync(string userid)
+    {
+        var user = await _userManager.FindByIdAsync(userid);
+
+        if(user is null)
+        {
+            return IdentityResult.Failed();
+        }
+
+        return await _userManager.DeleteAsync(user);
+    }
+
     public bool IsLoggedIn()
     {
         return _signInManager.IsSignedIn(_httpContextAccessor.HttpContext!.User);
     }
 
-    public async Task<string> GetUserName()
+    public async Task<string> GetLoggedInUserNameAsync()
     {
-        var user = await _userManager.GetUserAsync(_httpContextAccessor.HttpContext!.User);
+        var user = await GetLoggedInUserAsync();
+        return user?.FirstName!;
+    }
 
-        if(user is null)
+    public async Task<ApplicationUser> GetLoggedInUserAsync()
+    {
+        var userId = _httpContextAccessor.HttpContext?.User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+        if(userId is null)
         {
-            return null!;
+            return null!; // No longer logged in
         }
 
-        return await _userManager.GetUserNameAsync(user);
+        return await _userManager.FindByIdAsync(userId);
     }
 }
