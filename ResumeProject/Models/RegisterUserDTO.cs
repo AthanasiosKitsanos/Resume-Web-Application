@@ -5,9 +5,6 @@ namespace ResumeProject.Models;
 
 public class RegisterUserDTO
 {
-    [Required]
-    public string? UserName { get; set; }
-
     [EmailAddress]
     public string? Email { get; set; }
 
