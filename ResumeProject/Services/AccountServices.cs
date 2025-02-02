@@ -16,12 +16,14 @@ public class AccountServices
     private readonly UserManager<ApplicationUser> _userManager;
     private readonly SignInManager<ApplicationUser> _signInManager;
     private readonly IHttpContextAccessor _httpContextAccessor;
+    private readonly RoleManager<IdentityRole> _roleManager;
 
-    public AccountServices(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager, IHttpContextAccessor httpContextAccessor)
+    public AccountServices(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager, IHttpContextAccessor httpContextAccessor, RoleManager<IdentityRole> roleManager)
     {
         _userManager = userManager;
         _signInManager = signInManager;
         _httpContextAccessor = httpContextAccessor;
+        _roleManager = roleManager;
     }
 
     // Register a new user
@@ -33,6 +35,11 @@ public class AccountServices
         {
             user.Age--;
         }
+
+        if (!await _roleManager.RoleExistsAsync("User"))
+        {
+            await _roleManager.CreateAsync(new IdentityRole("User"));
+        }       
         
         var result = await _userManager.CreateAsync(user, password); // We use CreateAsync to create a new user.
         
@@ -73,7 +80,7 @@ public class AccountServices
             expires: DateTime.Now.AddHours(1),
             signingCredentials: creds
         );
-
+        
         return new JwtSecurityTokenHandler().WriteToken(token);
     }
 
