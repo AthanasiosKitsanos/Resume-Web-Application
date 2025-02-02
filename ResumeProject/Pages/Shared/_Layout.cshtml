@@ -1,28 +1,36 @@
-﻿@{
-}
+﻿@inject ResumeProject.Services.AccountServices AccountServices
+@addTagHelper*, Microsoft.AspNetCore.Mvc.TagHelpers
 
 <!DOCTYPE html>
+
 <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>@ViewData["Title"] - Resume Web Application</title>
-        <link rel="stylesheet" href="~/wwwroot.styles.css">
+        <link rel="stylesheet" href="~/styles.css" asp-append-version="true">
     </head>
     <body>
         <header>
-            <nav class="navbar">
-                <div>
-                    <a href="/Account/Register">Register</a>
-                </div>
+            <nav class="nav-container">
+                <ul class="nav-list">
 
-                <div>
-                    <a href="/Account/Login">Login</a>
-                </div>
+                    <li class="nav-item">
+                        <a href="/">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="/Account/Register">Register</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="/Account/Login">Login</a>
+                    </li>
+                </ul>   
             </nav>
         </header>
         
-        <main>
+        <main class="container">
             @RenderBody()
         </main>
 
