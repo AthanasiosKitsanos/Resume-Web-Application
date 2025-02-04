@@ -47,7 +47,8 @@ namespace ResumeProject.Pages.Account
                 Email = RegisterDto.Email,
                 FirstName = RegisterDto.FirstName,
                 LastName = RegisterDto.LastName,
-                DateOfBirth = RegisterDto.DateOfBirth
+                DateOfBirth = RegisterDto.DateOfBirth,
+                PhoneNumber = RegisterDto.PhoneNumber
             };
     
             var result = await _accountServices.RegisterUserAsync(user, RegisterDto.Password!);
