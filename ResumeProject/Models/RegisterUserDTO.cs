@@ -20,4 +20,6 @@ public class RegisterUserDTO
 
     [Required]
     public DateTime DateOfBirth { get; set; }
+
+    public string? PhoneNumber { get; set; }
 }
