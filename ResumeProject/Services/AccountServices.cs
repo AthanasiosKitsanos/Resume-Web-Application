@@ -7,6 +7,8 @@ using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 using ResumeProject.Settings;
+using System.Linq;
+using ResumeProject.ContextDb;
 
 
 namespace ResumeProject.Services;
@@ -18,12 +20,14 @@ public class AccountServices
     private readonly IHttpContextAccessor _httpContextAccessor;
     private readonly RoleManager<IdentityRole> _roleManager;
 
-    public AccountServices(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager, IHttpContextAccessor httpContextAccessor, RoleManager<IdentityRole> roleManager)
+    private readonly AppDbContext _context;
+    public AccountServices(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager, IHttpContextAccessor httpContextAccessor, RoleManager<IdentityRole> roleManager, AppDbContext context)
     {
         _userManager = userManager;
         _signInManager = signInManager;
         _httpContextAccessor = httpContextAccessor;
         _roleManager = roleManager;
+        _context = context;
     }
 
     // Register a new user
@@ -90,57 +94,75 @@ public class AccountServices
         await _signInManager.SignOutAsync();
     }
 
-    public async Task<IdentityResult> UpdateUserAsync(ApplicationUser user)
+    // Update info Methods
+    public IQueryable<object> GetCurrentUserInfo()
     {
-        var existingUser = await _userManager.FindByIdAsync(user.Id);
+        var userId = _userManager.GetUserId(_signInManager.Context.User);
 
-        if(existingUser is null)
-        {
-            return IdentityResult.Failed();
-        }
-
-        existingUser.FirstName = user.FirstName;
-        existingUser.LastName = user.LastName;
-        existingUser.Email = user.Email;
-        existingUser.UserName = user.Email;
-        existingUser.PhoneNumber = user.PhoneNumber;
-
-        return await _userManager.UpdateAsync(existingUser);
+        return _context.Users.Where(u => u.Id == userId).Select(u => new 
+        {   
+            u.Id,
+            u.Email,
+            u.FirstName,
+            u.LastName,
+            u.PhoneNumber,
+            u.DateOfBirth,
+            u.Age
+            
+        });
     }
 
-    // Delete an account
-    public async Task<IdentityResult> DeleteUserAsync(string userid)
+    public IQueryable<object> GetAllUsers()
     {
-        var user = await _userManager.FindByIdAsync(userid);
+        return _context.Users.Select(u =>  new 
+        {
+            u.Id,
+            u.Email,
+            u.FirstName,
+            u.LastName,
+            u.PhoneNumber,
+            u.DateOfBirth,
+            u.Age
+        });
+    }
+
+    public async Task<bool> UpdateUserInfoAsync(UpdateUserDTO updateUserDto)
+    {
+        var user = await _userManager.GetUserAsync(_signInManager.Context.User);
 
         if(user is null)
         {
-            return IdentityResult.Failed();
+            return false;
         }
 
-        return await _userManager.DeleteAsync(user);
+        user.FirstName = updateUserDto.FirstName;
+        user.LastName = updateUserDto.LastName;
+        user.Email = updateUserDto.Email;
+        user.UserName = updateUserDto.Email;
+        user.PhoneNumber = updateUserDto.PhoneNumber;
+
+        var result = await _userManager.UpdateAsync(user);
+
+        return true;
     }
 
-    public bool IsLoggedIn()
+     // Delete current user method
+    public async Task<bool> DeleteAccountAsync()
     {
-        return _signInManager.IsSignedIn(_httpContextAccessor.HttpContext!.User);
-    }
+        var user = await _userManager.GetUserAsync(_signInManager.Context.User);
 
-    public async Task<string> GetLoggedInUserNameAsync()
-    {
-        var user = await GetLoggedInUserAsync();
-        return user?.FirstName!;
-    }
-
-    public async Task<ApplicationUser> GetLoggedInUserAsync()
-    {
-        var userId = _httpContextAccessor.HttpContext?.User.FindFirstValue(ClaimTypes.NameIdentifier);
-
-        if(userId is null)
+        if(user is null)
         {
-            return null!; // No longer logged in
+            return false;
         }
 
-        return await _userManager.FindByIdAsync(userId);
+        var result = await _userManager.DeleteAsync(user);
+        if(result.Succeeded)
+        {
+            await _signInManager.SignOutAsync();
+            return true;
+        }
+
+        return false;
     }
 }
