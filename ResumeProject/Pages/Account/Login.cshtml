@@ -6,9 +6,14 @@
     ViewData["Title"] = "Login";
 }
 
+@section Styles
+{
+    <link rel="stylesheet" href="~/styles.css" asp-append-version="true">
+}
+
 <h2>Login</h2>
 
-<form method="post">
+<form method="post" class="center-form">
     <div>
         <label>Email</label>
         <input type="email" asp-for="LoginDto.Email" required />

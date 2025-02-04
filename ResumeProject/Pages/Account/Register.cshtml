@@ -4,9 +4,15 @@
 @{
     ViewData["Title"] = "Register";
 }
+
+@section Styles
+{
+    <link rel="stylesheet" href="~/styles.css" asp-append-version="true">
+}
+
 <h2>Register</h2>
 
-<form method="post">
+<form method="post" class="center-form">
     <div>
         <label>Email:</label>
         <input type="email" asp-for="RegisterDto.Email" required/>
@@ -37,6 +43,11 @@
         <span asp-validation-for="RegisterDto.DateOfBirth" class="text-danger"></span>
     </div>
 
+    <div>
+        <label>Phone Number</label>
+        <input asp-for="RegisterDto.PhoneNumber" />
+    </div>
+    
     <button type="submit">Register</button>
 </form>
 

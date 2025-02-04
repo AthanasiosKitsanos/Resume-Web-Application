@@ -9,6 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>@ViewData["Title"] - Resume Web Application</title>
         <link rel="stylesheet" href="~/styles.css" asp-append-version="true">
+        @RenderSection("Styles", required: false) 
     </head>
     <body>
         <header>
@@ -20,7 +21,7 @@
                     </li>
 
                     <li class="nav-item dropdown">
-                            <a href="" class="dropdow-toggle">Account</a>
+                            <a href="">Account</a>
                         <ul class="dropdown-menu">
                             <li>
                                 <a href="/Account/Register">Register</a>
@@ -28,6 +29,10 @@
 
                             <li>
                                 <a href="/Account/Login">Login</a>    
+                            </li>
+
+                            <li>
+                                <a href="/Account/Update">Update Info</a>
                             </li>
 
                             <li>
