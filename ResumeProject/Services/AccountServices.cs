@@ -165,4 +165,28 @@ public class AccountServices
 
         return false;
     }
+
+    // Display User's Name and Lastname in the navigation bar
+    public IQueryable<object> GetFirstAndLastName()
+    {
+        var userId = _userManager.GetUserId(_signInManager.Context.User);
+
+        return _context.Users.Where(u => u.Id == userId).Select(u => new
+        {
+            u.FirstName,
+            u.LastName
+        });
+    }
+
+    public async Task<bool> IsLoggedIn()
+    {
+        var user = await _userManager.GetUserAsync(_signInManager.Context.User);
+
+        if(user is null)
+        {
+            return false;
+        }
+
+        return true;
+    }
 }
