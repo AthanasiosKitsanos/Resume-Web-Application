@@ -34,6 +34,7 @@ namespace ResumeProject.Pages.Account
             if(token is null)
             {
                 ModelState.AddModelError(string.Empty, "Invalid email or password, please try again");
+                return Page();
             }
 
             return RedirectToPage("/Index");

@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using ResumeProject.Settings;
 using System.Linq;
 using ResumeProject.ContextDb;
+using Microsoft.AspNetCore.Authentication;
 
 
 namespace ResumeProject.Services;
@@ -35,7 +36,7 @@ public class AccountServices
     {
         user.Age = DateTime.Now.Year - user.DateOfBirth.Year;
 
-        if(DateTime.Now.Date < user.DateOfBirth.Date.AddYears(user.Age))
+        if (DateTime.Now.Date < user.DateOfBirth.Date.AddYears(user.Age))
         {
             user.Age--;
         }
@@ -43,12 +44,12 @@ public class AccountServices
         if (!await _roleManager.RoleExistsAsync("User"))
         {
             await _roleManager.CreateAsync(new IdentityRole("User"));
-        }       
-        
+        }
+
         var result = await _userManager.CreateAsync(user, password); // We use CreateAsync to create a new user.
-        
+
         await _userManager.AddToRoleAsync(user, "User");
-        
+
         return result;
     }
 
@@ -56,36 +57,50 @@ public class AccountServices
 
     public async Task<string> LoginUserAsync(string email, string password, bool rememberMe = false)
     {
-        var user = await _userManager.FindByEmailAsync(email);
+        var result = await IsLoggedIn();
 
-        if(user is null || !await _userManager.CheckPasswordAsync(user, password))
+        if (!result)
         {
-            return null!;
-        }
+            var user = await _userManager.FindByEmailAsync(email);
 
-        var roles = await _userManager.GetRolesAsync(user);
+            if (user is null || !await _userManager.CheckPasswordAsync(user, password))
+            {
+                return null!;
+            }
 
-        var claims = new List<Claim>
-        {
+            var roles = await _userManager.GetRolesAsync(user);
+
+            var claims = new List<Claim>
+            {
             new Claim(ClaimTypes.Name, user.UserName!),
             new Claim(ClaimTypes.NameIdentifier, user.Id)
-        };
+            };
 
-        var jwtSettings = SharedSettings.GetJwtSettings();
+            foreach(var role in roles)
+            {
+                claims.Add(new Claim(ClaimTypes.Role, role));
+            }
 
-        var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSettings.SecretKey!));
-        var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+            var jwtSettings = SharedSettings.GetJwtSettings();
 
-        var token = new JwtSecurityToken
-        (
-            issuer: jwtSettings.Issuer,
-            audience: jwtSettings.Audience,
-            claims: claims,
-            expires: DateTime.Now.AddHours(1),
-            signingCredentials: creds
-        );
-        
-        return new JwtSecurityTokenHandler().WriteToken(token);
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSettings.SecretKey!));
+            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+
+            DateTime expirationToken = rememberMe ? DateTime.Now.AddDays(7) : DateTime.Now.AddHours(1); // We create a token that the duration of it extends if the RemeberMe is true by 7 days, else for 1 hourKs
+
+            var token = new JwtSecurityToken
+            (
+                issuer: jwtSettings.Issuer,
+                audience: jwtSettings.Audience,
+                claims: claims,
+                expires: expirationToken,
+                signingCredentials: creds
+            );
+
+            return new JwtSecurityTokenHandler().WriteToken(token);
+        }
+
+        return "User is already logged in";
     }
 
     // Log out user
@@ -99,8 +114,8 @@ public class AccountServices
     {
         var userId = _userManager.GetUserId(_signInManager.Context.User);
 
-        return _context.Users.Where(u => u.Id == userId).Select(u => new 
-        {   
+        return _context.Users.Where(u => u.Id == userId).Select(u => new
+        {
             u.Id,
             u.Email,
             u.FirstName,
@@ -108,13 +123,13 @@ public class AccountServices
             u.PhoneNumber,
             u.DateOfBirth,
             u.Age
-            
+
         });
     }
 
     public IQueryable<object> GetAllUsers()
     {
-        return _context.Users.Select(u =>  new 
+        return _context.Users.Select(u => new
         {
             u.Id,
             u.Email,
@@ -130,7 +145,7 @@ public class AccountServices
     {
         var user = await _userManager.GetUserAsync(_signInManager.Context.User);
 
-        if(user is null)
+        if (user is null)
         {
             return false;
         }
@@ -146,18 +161,18 @@ public class AccountServices
         return true;
     }
 
-     // Delete current user method
+    // Delete current user method
     public async Task<bool> DeleteAccountAsync()
     {
         var user = await _userManager.GetUserAsync(_signInManager.Context.User);
 
-        if(user is null)
+        if (user is null)
         {
             return false;
         }
 
         var result = await _userManager.DeleteAsync(user);
-        if(result.Succeeded)
+        if (result.Succeeded)
         {
             await _signInManager.SignOutAsync();
             return true;
@@ -167,14 +182,14 @@ public class AccountServices
     }
 
     // Display User's Name and Lastname in the navigation bar
-    public IQueryable<object> GetFirstAndLastName()
+    public IQueryable<UserNameDTO> GetFirstAndLastName()
     {
         var userId = _userManager.GetUserId(_signInManager.Context.User);
 
-        return _context.Users.Where(u => u.Id == userId).Select(u => new
+        return _context.Users.Where(u => u.Id == userId).Select(u => new UserNameDTO
         {
-            u.FirstName,
-            u.LastName
+            FirstName = u.FirstName,
+            LastName = u.LastName
         });
     }
 
@@ -182,7 +197,7 @@ public class AccountServices
     {
         var user = await _userManager.GetUserAsync(_signInManager.Context.User);
 
-        if(user is null)
+        if (user is null)
         {
             return false;
         }

@@ -21,13 +21,12 @@
                     </li>
                     @if(await AccountServices.IsLoggedIn())
                     {
-                        var userQuery = AccountServices.GetFirstAndLastName();
-                        var user = userQuery.FirstOrDefault();
+                        var userName = AccountServices.GetFirstAndLastName().FirstOrDefault();
 
-                        if(user is not null)
+                        if(userName is not null)
                         {
                             <li class="nav-item">
-                                @*<span>Welcome, @user.FirstName @user.LastName</span>*@
+                                <span>Welcome, @userName.FirstName @userName.LastName</span>
                             </li>
                         }
                     }
