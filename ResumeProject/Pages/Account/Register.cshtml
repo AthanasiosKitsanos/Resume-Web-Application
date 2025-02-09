@@ -15,37 +15,37 @@
 <form method="post" class="center-form">
     <div>
         <label>Email:</label>
-        <input type="email" asp-for="RegisterDto.Email" required/>
-        <span asp-validation-for="RegisterDto.Email" class="text-danger"></span>
+        <input type="email" asp-for="Input.Email" required/>
+        <span asp-validation-for="Input.Email" class="text-danger"></span>
     </div>
 
     <div>
         <label>Password:</label>
-        <input type="password" asp-for="RegisterDto.Password" required />
-        <span asp-validation-for="RegisterDto.Password" class="text-danger"></span>
+        <input type="password" asp-for="Input.Password" required />
+        <span asp-validation-for="Input.Password" class="text-danger"></span>
     </div>
 
     <div>
         <label>First Name:</label>
-        <input asp-for="RegisterDto.FirstName" required />
-        <span asp-validation-for="RegisterDto.FirstName" class="text-danger"></span>
+        <input asp-for="Input.FirstName" required />
+        <span asp-validation-for="Input.FirstName" class="text-danger"></span>
     </div>
 
     <div>
         <label>Last Name:</label>
-        <input asp-for="RegisterDto.LastName" required />
-        <span asp-validation-for="RegisterDto.LastName" class="text-danger"></span>
+        <input asp-for="Input.LastName" required />
+        <span asp-validation-for="Input.LastName" class="text-danger"></span>
     </div>
 
     <div>
         <label>Date of Birth:</label>
-        <input asp-for="RegisterDto.DateOfBirth" type="date" required />
-        <span asp-validation-for="RegisterDto.DateOfBirth" class="text-danger"></span>
+        <input asp-for="Input.DateOfBirth" type="date" required />
+        <span asp-validation-for="Input.DateOfBirth" class="text-danger"></span>
     </div>
 
     <div>
         <label>Phone Number</label>
-        <input asp-for="RegisterDto.PhoneNumber" />
+        <input asp-for="Input.PhoneNumber" />
     </div>
 
     <div class="button-align">

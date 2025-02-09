@@ -20,14 +20,9 @@ namespace ResumeProject.Pages.Account
 
         }
 
-        public async Task<IActionResult> OnPost()
+        public async Task<IActionResult> OnPostAsync()
         {
-            var result = await _logInService.IsLoggedInAsync();
-
-            if(result)
-            {
-                await _logOutService.LogOutUserAsync();    
-            }
+            await _logOutService.LogOutUserAsync();    
             
             return RedirectToPage("/");
         }

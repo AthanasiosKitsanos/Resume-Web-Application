@@ -1,5 +1,9 @@
-﻿@*inject ResumeProject.Services.AccountServices AccountServices*@
-@addTagHelper*, Microsoft.AspNetCore.Mvc.TagHelpers
+﻿@addTagHelper*, Microsoft.AspNetCore.Mvc.TagHelpers
+@using System.Security.Claims
+@inject ResumeProject.Services.JwtTokenService jwtTokenService
+@{  
+    var refreshedToken = await jwtTokenService.RefreshAccessTokenAsync();
+}
 
 <!DOCTYPE html>
 
@@ -19,37 +23,34 @@
                     <li class="nav-item">
                         <a href="/">Home</a>
                     </li>
-                    @*if(await AccountServices.IsLoggedIn())
+                    @if(User.Identity is not null && User.Identity.IsAuthenticated)
                     {
-                        var userName = AccountServices.GetFirstAndLastName().FirstOrDefault();
+                        var firstName = User.FindFirst("FirstName")?.Value;
+                        var lastName = User.FindFirst("LastName")?.Value;
+                        var fullName = (!string.IsNullOrEmpty(firstName) && !string.IsNullOrEmpty(lastName)) ? $"{firstName} {lastName}" : User.Identity.Name;
+                        <li>
+                            <a href="/Account/Update">Update Info</a>
+                        </li>
 
-                        if(userName is not null)
-                        {
-                            <li class="nav-item">
-                                <span>Welcome, @userName.FirstName @userName.LastName</span>
-                            </li>
-                        }
-                    }*@
-                    <li class="nav-item dropdown">
-                            <a href="">Account</a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="/Account/Register">Register</a>
-                            </li>
+                        <li>
+                            <a href="/Account/Logout">Logout</a>
+                        </li>
+                    }
+                    else
+                    {
+                        <li class="nav-item dropdown">
+                                <a href="">Account</a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="/Account/Register">Register</a>
+                                    </li>
 
-                            <li>
-                                <a href="/Account/Login">Login</a>    
-                            </li>
-
-                            <li>
-                                <a href="/Account/Update">Update Info</a>
-                            </li>
-
-                            <li>
-                                <a href="/Account/Logout">Logout</a>
-                            </li>
-                        </ul>
-                    </li>
+                                    <li>
+                                        <a href="/Account/Login">Login</a>    
+                                    </li>
+                                </ul>
+                        </li>
+                    }
                 </ul>   
             </nav>
         </header>

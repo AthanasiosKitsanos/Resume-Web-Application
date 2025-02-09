@@ -1,5 +1,6 @@
 using System;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using ResumeProject.Models;
 
 namespace ResumeProject.Services;
@@ -7,16 +8,28 @@ namespace ResumeProject.Services;
 public class RegisterService
 {
     private readonly UserManager<ApplicationUser> _userManager;
+    private readonly SignInManager<ApplicationUser> _signInManager;
     private readonly RoleManager<IdentityRole> _roleManager;
     
-    public RegisterService(UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager)
+    public RegisterService(UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager, SignInManager<ApplicationUser> signInManager)
     {
         _userManager = userManager;
         _roleManager = roleManager;
+        _signInManager = signInManager;
     }
 
-    public async Task<IdentityResult> RegisterUserAsync(ApplicationUser user, string password)
+    public async Task<IdentityResult> RegisterUserAsync(RegisterUserDTO input)
     {
+        var user = new ApplicationUser
+        {
+            UserName = input.Email,
+            Email = input.Email,
+            FirstName = input.FirstName,
+            LastName = input.LastName,
+            DateOfBirth = input.DateOfBirth,
+            PhoneNumber = input.PhoneNumber
+        };
+
         user.Age = DateTime.Now.Year - user.DateOfBirth.Year;
 
         if(DateTime.Now.Date < user.DateOfBirth.Date.AddYears(user.Age))
@@ -24,14 +37,16 @@ public class RegisterService
             user.Age--;
         }
 
-        if(!await _roleManager.RoleExistsAsync("User"))
+        var result = await _userManager.CreateAsync(user, input.Password);
+        if(result.Succeeded)
         {
-            await _roleManager.CreateAsync(new IdentityRole("User"));
+            if(!await _roleManager.RoleExistsAsync("User"))
+            {
+                await _roleManager.CreateAsync(new IdentityRole("User"));
+            }
+
+            await _userManager.AddToRoleAsync(user, "User");
         }
-
-        var result = await _userManager.CreateAsync(user, password);
-
-        await _userManager.AddToRoleAsync(user, "User");
 
         return result;
     }

@@ -8,6 +8,7 @@ using System.Text;
 using ResumeProject.Services;
 using ResumeProject.Data;
 using ResumeProject.Settings;
+using Microsoft.Extensions.Options;
 
 namespace ResumeProject;
 
@@ -19,31 +20,18 @@ class Program
         
         // Add services to the containers
         builder.Services.AddRazorPages(); // To use Razor pages // To use controllers
-        builder.Services.AddServerSideBlazor(); // To use Blazor in server's side
 
         // Add Identity and configure JWT authentication
         builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlite("Data Source=ResumeProject.db"));
         builder.Services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
 
-        var jwtSettings = SharedSettings.GetJwtSettings();
 
-        builder.Services.AddAuthentication(options =>
+        builder.Services.ConfigureApplicationCookie(options => 
         {
-            options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-            options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-        })
-        .AddJwtBearer(options =>
-        {
-            options.TokenValidationParameters = new TokenValidationParameters
-            {
-                ValidateIssuer = true,
-                ValidateAudience = true,
-                ValidateLifetime = true,
-                ValidateIssuerSigningKey = true,
-                ValidIssuer = jwtSettings!.Issuer,
-                ValidAudience = jwtSettings.Audience,
-                IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSettings.SecretKey!))
-            };   
+            options.LoginPath = "/Account/Login";
+            options.AccessDeniedPath = "/Account/AccessDenied";
+            options.ExpireTimeSpan = TimeSpan.FromMinutes(30);
+            options.SlidingExpiration = true;
         });
 
         builder.Services.AddScoped<LogInService>();
@@ -55,20 +43,18 @@ class Program
         
         var app = builder.Build();
 
+        if(!app.Environment.IsDevelopment())
+        {
+            app.UseExceptionHandler("/Error");
+            app.UseHsts();
+        }
+        
         app.UseHttpsRedirection();
         app.UseStaticFiles();
+        app.UseRouting();
         app.UseAuthentication();
         app.UseAuthorization();
-        app.MapControllers();
         app.MapRazorPages();
-        app.MapBlazorHub();
-
-        using(var scope = app.Services.CreateScope())
-        {
-            var services = scope.ServiceProvider;
-            var userManager = services.GetRequiredService<UserManager<ApplicationUser>>();
-            await SeedData.Initialize(services, userManager);
-        }
 
         app.Run();
     }

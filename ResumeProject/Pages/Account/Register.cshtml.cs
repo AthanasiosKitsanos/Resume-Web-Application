@@ -18,7 +18,7 @@ namespace ResumeProject.Pages.Account
 
         
         [BindProperty]
-        public RegisterUserDTO RegisterDto { get; set; } = new RegisterUserDTO();
+        public RegisterUserDTO Input { get; set; } = new RegisterUserDTO();
 
         public void OnGet()
         {
@@ -40,18 +40,8 @@ namespace ResumeProject.Pages.Account
                 
                 return Page();
             }
-
-            var user = new ApplicationUser
-            {
-                UserName = RegisterDto.Email,
-                Email = RegisterDto.Email,
-                FirstName = RegisterDto.FirstName,
-                LastName = RegisterDto.LastName,
-                DateOfBirth = RegisterDto.DateOfBirth,
-                PhoneNumber = RegisterDto.PhoneNumber
-            };
     
-            var result = await _registerService.RegisterUserAsync(user, RegisterDto.Password!);
+            var result = await _registerService.RegisterUserAsync(Input);
 
             if(!result.Succeeded)
             {
