@@ -8,10 +8,12 @@ namespace ResumeProject.Pages.Account
     public class UpdateModel : PageModel
     {
         private readonly UpdateService _updateService;
+        private readonly LogInService _logInService;
 
-        public UpdateModel(UpdateService updateService)
+        public UpdateModel(UpdateService updateService, LogInService logInService)
         {
             _updateService = updateService;
+            _logInService = logInService;
         }
         public void OnGet()
         {
