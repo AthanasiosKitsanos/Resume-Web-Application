@@ -46,7 +46,13 @@ class Program
             };   
         });
 
-        builder.Services.AddScoped<AccountServices>();
+        builder.Services.AddScoped<LogInService>();
+        builder.Services.AddScoped<DeleteService>();
+        builder.Services.AddScoped<LogOutService>();
+        builder.Services.AddScoped<QueryService>();
+        builder.Services.AddScoped<RegisterService>();
+        builder.Services.AddScoped<UpdateService>();
+        
         var app = builder.Build();
 
         app.UseHttpsRedirection();
