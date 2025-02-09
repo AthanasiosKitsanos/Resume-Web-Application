@@ -9,11 +9,11 @@ namespace ResumeProject.Pages.Account
 {
     public class RegisterModel : PageModel
     {
-        private readonly AccountServices _accountServices;
+        private readonly RegisterService _registerService;
 
-        public RegisterModel(AccountServices accountServices)
+        public RegisterModel(RegisterService registerService)
         {
-            _accountServices = accountServices;
+            _registerService = registerService;
         }
 
         
@@ -51,7 +51,7 @@ namespace ResumeProject.Pages.Account
                 PhoneNumber = RegisterDto.PhoneNumber
             };
     
-            var result = await _accountServices.RegisterUserAsync(user, RegisterDto.Password!);
+            var result = await _registerService.RegisterUserAsync(user, RegisterDto.Password!);
 
             if(!result.Succeeded)
             {

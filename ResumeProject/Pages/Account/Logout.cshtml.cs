@@ -7,11 +7,13 @@ namespace ResumeProject.Pages.Account
 {
     public class LogoutModel : PageModel
     {
-        private readonly AccountServices _accountServices;
+        private readonly LogOutService _logOutService;
+        private readonly LogInService _logInService;
 
-        public LogoutModel(AccountServices accountServices)
+        public LogoutModel(LogOutService logOutService, LogInService logInService)
         {
-            _accountServices = accountServices;
+            _logOutService = logOutService;
+            _logInService = logInService;
         }
         public void OnGet()
         {
@@ -20,11 +22,11 @@ namespace ResumeProject.Pages.Account
 
         public async Task<IActionResult> OnPost()
         {
-            var result = await _accountServices.IsLoggedIn();
+            var result = await _logInService.IsLoggedInAsync();
 
             if(result)
             {
-                await _accountServices.LogOutUser();    
+                await _logOutService.LogOutUserAsync();    
             }
             
             return RedirectToPage("/");

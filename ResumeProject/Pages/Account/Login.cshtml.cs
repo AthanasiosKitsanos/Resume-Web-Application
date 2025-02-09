@@ -7,11 +7,11 @@ namespace ResumeProject.Pages.Account
 {
     public class LoginModel : PageModel
     {
-        private readonly AccountServices _accountServices;
+        private readonly LogInService _logInService;
 
-        public LoginModel(AccountServices accountServices)
+        public LoginModel(LogInService logInServices)
         {
-            _accountServices = accountServices;
+            _logInService = logInServices;
         }
 
         [BindProperty]
@@ -29,7 +29,7 @@ namespace ResumeProject.Pages.Account
                 return Page();
             }
 
-            var token = await _accountServices.LoginUserAsync(LoginDto.Email!, LoginDto.Password!, LoginDto.RememberMe);
+            var token = await _logInService.LogInUserAsync(LoginDto.Email!, LoginDto.Password!, LoginDto.RememberMe);
 
             if(token is null)
             {

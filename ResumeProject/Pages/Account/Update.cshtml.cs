@@ -7,11 +7,11 @@ namespace ResumeProject.Pages.Account
 {
     public class UpdateModel : PageModel
     {
-        private readonly AccountServices _accountServices;
+        private readonly UpdateService _updateService;
 
-        public UpdateModel(AccountServices accountServices)
+        public UpdateModel(UpdateService updateService)
         {
-            _accountServices = accountServices;
+            _updateService = updateService;
         }
         public void OnGet()
         {
@@ -36,7 +36,7 @@ namespace ResumeProject.Pages.Account
                 return Page();
             }
 
-            var result = await _accountServices.UpdateUserInfoAsync(UpdateDto);
+            var result = await _updateService.UpdateUserInfoAsync(UpdateDto);
 
             if(result)
             {
