@@ -15,7 +15,7 @@ namespace ResumeProject.Pages.Account
         }
 
         [BindProperty]
-        public LogInDTO LoginDto  { get; set; } = new LogInDTO();
+        public LogInDTO Input { get; set; } = new LogInDTO();
 
         public void OnGet()
         {
@@ -29,15 +29,15 @@ namespace ResumeProject.Pages.Account
                 return Page();
             }
 
-            var token = await _logInService.LogInUserAsync(LoginDto.Email!, LoginDto.Password!, LoginDto.RememberMe);
+            var result = await _logInService.LogInUserAsync(Input);
 
-            if(token is null)
+            if(result.Succeeded)
             {
-                ModelState.AddModelError(string.Empty, "Invalid email or password, please try again");
-                return Page();
+                return RedirectToPage("/Index");
             }
 
-            return RedirectToPage("/Index");
+            ModelState.AddModelError("", "Invalid login attempt.");
+            return Page();
         }
     }
 }

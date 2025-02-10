@@ -26,6 +26,12 @@
     </div>
 
     <div>
+        <label>Confirm Password</label>
+        <input type="password" asp-for="Input.ConfirmPassword" required />
+        <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+    </div>
+
+    <div>
         <label>First Name:</label>
         <input asp-for="Input.FirstName" required />
         <span asp-validation-for="Input.FirstName" class="text-danger"></span>

@@ -7,13 +7,11 @@ namespace ResumeProject.Services;
 public class LogOutService
 {
     private readonly SignInManager<ApplicationUser> _signInManager;
-    private readonly JwtTokenService _jwtTokenService;
     private readonly UserManager<ApplicationUser> _userManager;
 
-    public LogOutService(SignInManager<ApplicationUser> signInManager, JwtTokenService jwtTokenService, UserManager<ApplicationUser> userManager)
+    public LogOutService(SignInManager<ApplicationUser> signInManager, UserManager<ApplicationUser> userManager)
     {
         _signInManager = signInManager;
-        _jwtTokenService = jwtTokenService;
         _userManager = userManager;
     }
 
