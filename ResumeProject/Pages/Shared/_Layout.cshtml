@@ -1,9 +1,5 @@
 ﻿@addTagHelper*, Microsoft.AspNetCore.Mvc.TagHelpers
 @using System.Security.Claims
-@inject ResumeProject.Services.JwtTokenService jwtTokenService
-@{  
-    var refreshedToken = await jwtTokenService.RefreshAccessTokenAsync();
-}
 
 <!DOCTYPE html>
 
