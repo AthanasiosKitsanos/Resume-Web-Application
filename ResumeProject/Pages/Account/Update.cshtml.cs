@@ -15,13 +15,14 @@ namespace ResumeProject.Pages.Account
             _updateService = updateService;
             _logInService = logInService;
         }
+
+        [BindProperty]
+        public UpdateUserDTO Input { get; set; } = new UpdateUserDTO();
+
         public void OnGet()
         {
 
         }
-
-        [BindProperty]
-        public UpdateUserDTO UpdateDto { get; set; } = new UpdateUserDTO();
 
         public async Task<IActionResult> OnPostAsync()
         {
@@ -38,7 +39,7 @@ namespace ResumeProject.Pages.Account
                 return Page();
             }
 
-            var result = await _updateService.UpdateUserInfoAsync(UpdateDto);
+            var result = await _updateService.UpdateUserInfoAsync(Input);
 
             if(result)
             {

@@ -15,7 +15,7 @@ public class UpdateService
         _userManager = userManager;
     }
 
-    public async Task<bool> UpdateUserInfoAsync(UpdateUserDTO updateUserDto)
+    public async Task<bool> UpdateUserInfoAsync(UpdateUserDTO input)
     {
         var user = await _userManager.GetUserAsync(_signInManager.Context.User);
 
@@ -24,13 +24,17 @@ public class UpdateService
             return false;
         }
 
-        user.FirstName = updateUserDto.FirstName;
-        user.LastName = updateUserDto.LastName;
-        user.Email = updateUserDto.Email;
-        user.UserName = updateUserDto.Email;
-        user.PhoneNumber = updateUserDto.PhoneNumber;
+        user.FirstName = input.FirstName;
+        user.LastName = input.LastName;
+        user.Email = input.Email;
+        user.UserName = input.Email;
+        user.PhoneNumber = input.PhoneNumber;
 
         var result = await _userManager.UpdateAsync(user);
+        if(result.Succeeded)
+        {
+            await _signInManager.RefreshSignInAsync(user);
+        }
 
         return true;
     }
