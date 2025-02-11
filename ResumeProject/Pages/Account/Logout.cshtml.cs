@@ -8,12 +8,10 @@ namespace ResumeProject.Pages.Account
     public class LogoutModel : PageModel
     {
         private readonly LogOutService _logOutService;
-        private readonly LogInService _logInService;
 
-        public LogoutModel(LogOutService logOutService, LogInService logInService)
+        public LogoutModel(LogOutService logOutService)
         {
             _logOutService = logOutService;
-            _logInService = logInService;
         }
         public void OnGet()
         {
@@ -24,7 +22,7 @@ namespace ResumeProject.Pages.Account
         {
             await _logOutService.LogOutUserAsync();    
             
-            return RedirectToPage("/");
+            return RedirectToPage("/Index");
         }
     }
 }
