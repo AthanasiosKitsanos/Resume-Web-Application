@@ -24,7 +24,7 @@ class Program
         // Add Identity and configure JWT authentication
         builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlite("Data Source=ResumeProject.db"));
         builder.Services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
-
+        builder.Services.AddScoped<IUserClaimsPrincipalFactory<ApplicationUser>, ApplicationUserClaimsPrincipalFactory>();
 
         builder.Services.ConfigureApplicationCookie(options => 
         {
@@ -33,11 +33,10 @@ class Program
             options.ExpireTimeSpan = TimeSpan.FromMinutes(30);
             options.SlidingExpiration = true;
         });
-
+        
         builder.Services.AddScoped<LogInService>();
         builder.Services.AddScoped<DeleteService>();
         builder.Services.AddScoped<LogOutService>();
-        builder.Services.AddScoped<QueryService>();
         builder.Services.AddScoped<RegisterService>();
         builder.Services.AddScoped<UpdateService>();
         
