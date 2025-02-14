@@ -8,14 +8,12 @@ namespace ResumeProject.Services;
 public class RegisterService
 {
     private readonly UserManager<ApplicationUser> _userManager;
-    private readonly SignInManager<ApplicationUser> _signInManager;
     private readonly RoleManager<IdentityRole> _roleManager;
     
-    public RegisterService(UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager, SignInManager<ApplicationUser> signInManager)
+    public RegisterService(UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager)
     {
         _userManager = userManager;
         _roleManager = roleManager;
-        _signInManager = signInManager;
     }
 
     public async Task<IdentityResult> RegisterUserAsync(RegisterUserDTO input)
