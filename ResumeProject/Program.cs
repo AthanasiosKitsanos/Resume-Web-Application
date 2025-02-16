@@ -14,7 +14,7 @@ namespace ResumeProject;
 
 class Program
 {
-    static async Task Main(string[] args)
+    static void Main(string[] args)
     {
         var builder = WebApplication.CreateBuilder(args);
         
@@ -39,6 +39,7 @@ class Program
         builder.Services.AddScoped<LogOutService>();
         builder.Services.AddScoped<RegisterService>();
         builder.Services.AddScoped<UpdateService>();
+        builder.Services.AddScoped<UserInfoService>();
         
         var app = builder.Build();
 
