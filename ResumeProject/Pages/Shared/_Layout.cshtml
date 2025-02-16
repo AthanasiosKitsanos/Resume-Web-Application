@@ -24,8 +24,12 @@
                         var firstName = User.FindFirst("FirstName")?.Value;
                         var lastName = User.FindFirst("LastName")?.Value;
                         var fullName = (!string.IsNullOrEmpty(firstName) && !string.IsNullOrEmpty(lastName)) ? $"{firstName} {lastName}" : User.Identity.Name;
-                        <li>
+                        <li class="color-white">
                             @fullName
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="/Account/MyProfile">Profile</a>
                         </li>
 
                         <li class="nav-item">
