@@ -1,20 +1,24 @@
 {
   "Files": [
     {
-      "Id": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\buttonClass.css",
-      "PackagePath": "staticwebassets\\buttonClass.css"
+      "Id": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\buttonClass.css",
+      "PackagePath": "staticwebassets\\CSS\\buttonClass.css"
     },
     {
-      "Id": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\formClass.css",
-      "PackagePath": "staticwebassets\\formClass.css"
+      "Id": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\formClass.css",
+      "PackagePath": "staticwebassets\\CSS\\formClass.css"
     },
     {
-      "Id": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\navClass.css",
-      "PackagePath": "staticwebassets\\navClass.css"
+      "Id": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\navClass.css",
+      "PackagePath": "staticwebassets\\CSS\\navClass.css"
     },
     {
-      "Id": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\styles.css",
-      "PackagePath": "staticwebassets\\styles.css"
+      "Id": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\styles.css",
+      "PackagePath": "staticwebassets\\CSS\\styles.css"
+    },
+    {
+      "Id": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\JScript\\dropsownScript.js",
+      "PackagePath": "staticwebassets\\JScript\\dropsownScript.js"
     },
     {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.ResumeProject.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

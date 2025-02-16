@@ -23,7 +23,24 @@
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.nav-item a:hover{
+.nav-item p{
+    cursor: pointer;
+    border-style: hidden;
+    text-decoration: none;
+    color: white;
+    padding: 7px 15px;
+    margin: 0px 0px 0px 0px;
+    font-size: 16;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-item a.hover-effect{
+    background-color: rgba(255, 255, 255, 0.2);
+    color: black;
+    border-radius: 5px;
+}
+
+.nav-item p.hover-effect{
     background-color: rgba(255, 255, 255, 0.2);
     color: black;
     border-radius: 5px;

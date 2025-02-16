@@ -167,7 +167,8 @@ C:\Users\PC\source\repos\Portofolio\ResumeWebApp\ResumeProject\obj\Debug\net9.0\
 C:\Users\PC\source\repos\Portofolio\ResumeWebApp\ResumeProject\obj\Debug\net9.0\ResumeProject.pdb
 C:\Users\PC\source\repos\Portofolio\ResumeWebApp\ResumeProject\obj\Debug\net9.0\ResumeProject.genruntimeconfig.cache
 C:\Users\PC\source\repos\Portofolio\ResumeWebApp\ResumeProject\obj\Debug\net9.0\ref\ResumeProject.dll
-c:\Users\PC\source\repos\Portofolio\ResumeWebApp\ResumeProject\obj\Debug\net9.0\compressed\wp4g3fr2oh-sdaj40n26u.gz
-c:\Users\PC\source\repos\Portofolio\ResumeWebApp\ResumeProject\obj\Debug\net9.0\compressed\na352tk5ox-pfbnrw6hw3.gz
-c:\Users\PC\source\repos\Portofolio\ResumeWebApp\ResumeProject\obj\Debug\net9.0\compressed\j3j3juypit-cwc7wmgxbf.gz
-c:\Users\PC\source\repos\Portofolio\ResumeWebApp\ResumeProject\obj\Debug\net9.0\compressed\7idx3o54w4-9vjg8zfkzg.gz
+c:\Users\PC\source\repos\Portofolio\ResumeWebApp\ResumeProject\obj\Debug\net9.0\compressed\k6ybq1udc7-9vjg8zfkzg.gz
+c:\Users\PC\source\repos\Portofolio\ResumeWebApp\ResumeProject\obj\Debug\net9.0\compressed\z1m86tfedg-cwc7wmgxbf.gz
+c:\Users\PC\source\repos\Portofolio\ResumeWebApp\ResumeProject\obj\Debug\net9.0\compressed\tfsvifcb4h-pfbnrw6hw3.gz
+c:\Users\PC\source\repos\Portofolio\ResumeWebApp\ResumeProject\obj\Debug\net9.0\compressed\6hmgck47xb-ie97jqadn1.gz
+c:\Users\PC\source\repos\Portofolio\ResumeWebApp\ResumeProject\obj\Debug\net9.0\compressed\8lm063xcya-f4yrqxp1ur.gz
