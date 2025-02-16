@@ -167,4 +167,4 @@ C:\Users\PC\source\repos\Portofolio\ResumeWebApp\ResumeProject\obj\Debug\net9.0\
 C:\Users\PC\source\repos\Portofolio\ResumeWebApp\ResumeProject\obj\Debug\net9.0\ResumeProject.pdb
 C:\Users\PC\source\repos\Portofolio\ResumeWebApp\ResumeProject\obj\Debug\net9.0\ResumeProject.genruntimeconfig.cache
 C:\Users\PC\source\repos\Portofolio\ResumeWebApp\ResumeProject\obj\Debug\net9.0\ref\ResumeProject.dll
-c:\Users\PC\source\repos\Portofolio\ResumeWebApp\ResumeProject\obj\Debug\net9.0\compressed\na352tk5ox-lss8dx8mvq.gz
+c:\Users\PC\source\repos\Portofolio\ResumeWebApp\ResumeProject\obj\Debug\net9.0\compressed\na352tk5ox-ey6o8mqbf6.gz
