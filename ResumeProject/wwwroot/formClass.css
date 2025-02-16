@@ -1,0 +1,33 @@
+﻿.center-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px;
+    background-color: rgb(196, 0, 0);
+    width: 200px;
+    border-radius: 5px;
+    padding: 20px;
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.center-form ul{
+    border-radius: 5px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center-form li{
+    color: white;
+    margin-bottom: 10px;
+    text-align: left;
+}

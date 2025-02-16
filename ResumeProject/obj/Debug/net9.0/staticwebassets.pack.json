@@ -1,6 +1,18 @@
 {
   "Files": [
     {
+      "Id": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\buttonClass.css",
+      "PackagePath": "staticwebassets\\buttonClass.css"
+    },
+    {
+      "Id": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\formClass.css",
+      "PackagePath": "staticwebassets\\formClass.css"
+    },
+    {
+      "Id": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\navClass.css",
+      "PackagePath": "staticwebassets\\navClass.css"
+    },
+    {
       "Id": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\styles.css",
       "PackagePath": "staticwebassets\\styles.css"
     },
