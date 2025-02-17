@@ -1,24 +1,28 @@
 {
   "Files": [
     {
-      "Id": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\buttonClass.css",
-      "PackagePath": "staticwebassets\\CSS\\buttonClass.css"
+      "Id": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\button.css",
+      "PackagePath": "staticwebassets\\CSS\\button.css"
     },
     {
-      "Id": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\formClass.css",
-      "PackagePath": "staticwebassets\\CSS\\formClass.css"
+      "Id": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\dropdown.css",
+      "PackagePath": "staticwebassets\\CSS\\dropdown.css"
     },
     {
-      "Id": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\navClass.css",
-      "PackagePath": "staticwebassets\\CSS\\navClass.css"
+      "Id": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\layout.css",
+      "PackagePath": "staticwebassets\\CSS\\layout.css"
     },
     {
-      "Id": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\styles.css",
-      "PackagePath": "staticwebassets\\CSS\\styles.css"
+      "Id": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\nav.css",
+      "PackagePath": "staticwebassets\\CSS\\nav.css"
     },
     {
-      "Id": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\JScript\\dropsownScript.js",
-      "PackagePath": "staticwebassets\\JScript\\dropsownScript.js"
+      "Id": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\reset.css",
+      "PackagePath": "staticwebassets\\CSS\\reset.css"
+    },
+    {
+      "Id": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\JScript\\script.js",
+      "PackagePath": "staticwebassets\\JScript\\script.js"
     },
     {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.ResumeProject.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

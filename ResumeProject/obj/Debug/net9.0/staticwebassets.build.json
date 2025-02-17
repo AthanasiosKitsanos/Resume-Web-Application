@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+Bat0a7iCw6eA43q7hMH0K6VIAex/SnC8Q/u/1vOsQ0=",
+  "Hash": "5Go0f0KGQrfjG+BvfiGqAp/6K/9i5+feMSYAurh6gss=",
   "Source": "ResumeProject",
   "BasePath": "_content/ResumeProject",
   "Mode": "Default",
@@ -17,117 +17,138 @@
   ],
   "Assets": [
     {
-      "Identity": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\6hmgck47xb-ie97jqadn1.gz",
+      "Identity": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\0v13jbvrg6-smdylv69dj.gz",
       "SourceId": "ResumeProject",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ResumeProject",
-      "RelativePath": "JScript/dropsownScript#[.{fingerprint=ie97jqadn1}]?.js.gz",
+      "RelativePath": "CSS/layout#[.{fingerprint=smdylv69dj}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\JScript\\dropsownScript.js",
+      "RelatedAsset": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\layout.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "9z10klo1zr",
-      "Integrity": "+y1ZikZTC47MSe60hg/e7cAkIpKZucWzSpCyf5XCcI4=",
+      "Fingerprint": "f6m6ymjrfk",
+      "Integrity": "xx80Yu6q5zd4sU+5C2lzvWXdoiaTr+q/6jlrtOpejzo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\JScript\\dropsownScript.js"
+      "OriginalItemSpec": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\layout.css"
     },
     {
-      "Identity": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\8lm063xcya-f4yrqxp1ur.gz",
+      "Identity": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\5myvg4hgf2-hur3pvf7dg.gz",
       "SourceId": "ResumeProject",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ResumeProject",
-      "RelativePath": "CSS/navClass#[.{fingerprint=f4yrqxp1ur}]?.css.gz",
+      "RelativePath": "CSS/nav#[.{fingerprint=hur3pvf7dg}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\navClass.css",
+      "RelatedAsset": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\nav.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "tgd5b4e72h",
-      "Integrity": "kxFbAE7YJbngJDtnlMBSwhX7fTb3Xy6uX4gmB7uYKLU=",
+      "Fingerprint": "ey5io34thw",
+      "Integrity": "pnJe/fvcQh5EK0Klip+O4Bqa52KOUtoaDcmyAsGLKnY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\navClass.css"
+      "OriginalItemSpec": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\nav.css"
     },
     {
-      "Identity": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\k6ybq1udc7-9vjg8zfkzg.gz",
+      "Identity": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\bn2mvh9rh7-hhdxbo2o5h.gz",
       "SourceId": "ResumeProject",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ResumeProject",
-      "RelativePath": "CSS/buttonClass#[.{fingerprint=9vjg8zfkzg}]?.css.gz",
+      "RelativePath": "CSS/reset#[.{fingerprint=hhdxbo2o5h}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\buttonClass.css",
+      "RelatedAsset": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\reset.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "8edgpc7vww",
-      "Integrity": "ML/wSMWunWrCEblss76CY8gYcAp57gb2fJ9NuXju9rc=",
+      "Fingerprint": "jwhjl3sepp",
+      "Integrity": "nb09VSBiqPSvRGmq0xeetxtXrsx6LQYEE5vnbze7+Io=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\buttonClass.css"
+      "OriginalItemSpec": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\reset.css"
     },
     {
-      "Identity": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\tfsvifcb4h-pfbnrw6hw3.gz",
+      "Identity": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\dho87qvdnx-ssom20w5u2.gz",
       "SourceId": "ResumeProject",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ResumeProject",
-      "RelativePath": "CSS/styles#[.{fingerprint=pfbnrw6hw3}]?.css.gz",
+      "RelativePath": "CSS/dropdown#[.{fingerprint=ssom20w5u2}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\styles.css",
+      "RelatedAsset": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\dropdown.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "06x5diy4pu",
-      "Integrity": "KAwbIu6KV4Al3/xLD/tvqMaMIxvqxpKh/DSIR6ZgX+s=",
+      "Fingerprint": "hmaval0tyv",
+      "Integrity": "iUUhAnugHs8hTRVlljB2Qo8a9oBUz8/rDquXfp8EjS4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\styles.css"
+      "OriginalItemSpec": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\dropdown.css"
     },
     {
-      "Identity": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\z1m86tfedg-cwc7wmgxbf.gz",
+      "Identity": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\kb03a262xt-d3kjk2ho04.gz",
       "SourceId": "ResumeProject",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ResumeProject",
-      "RelativePath": "CSS/formClass#[.{fingerprint=cwc7wmgxbf}]?.css.gz",
+      "RelativePath": "JScript/script#[.{fingerprint=d3kjk2ho04}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\formClass.css",
+      "RelatedAsset": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\JScript\\script.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "sttu5sztc7",
-      "Integrity": "gHck64xv9YVaEJvYlnFzRM2RvsxUKnTfO62ELk3hKR0=",
+      "Fingerprint": "fs4zybtba0",
+      "Integrity": "Af8O3po6Tt6/ir2me2GqNwx5gISus2sRGUFzJ/njKE0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\formClass.css"
+      "OriginalItemSpec": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\JScript\\script.js"
     },
     {
-      "Identity": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\buttonClass.css",
+      "Identity": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\u868rl2k7o-zbf3yv5cc4.gz",
+      "SourceId": "ResumeProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/ResumeProject",
+      "RelativePath": "CSS/button#[.{fingerprint=zbf3yv5cc4}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\button.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "m6q4o3spq5",
+      "Integrity": "cp4NScysDNW4rCwMMN2qahPMFyuqWbUMwSVRJPHbOrM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\button.css"
+    },
+    {
+      "Identity": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\button.css",
       "SourceId": "ResumeProject",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\",
       "BasePath": "_content/ResumeProject",
-      "RelativePath": "CSS/buttonClass#[.{fingerprint}]?.css",
+      "RelativePath": "CSS/button#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -136,19 +157,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "9vjg8zfkzg",
-      "Integrity": "a9Pg5UGTFcPjdg4wcSGGuk9nYWg4Ab69i/hKgfWZ4x8=",
+      "Fingerprint": "zbf3yv5cc4",
+      "Integrity": "X/6VNHbV9AMsUDG5HxI2Bt4DXKb7qRn946F2Z3mgBo0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\CSS\\buttonClass.css"
+      "OriginalItemSpec": "wwwroot\\CSS\\button.css"
     },
     {
-      "Identity": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\formClass.css",
+      "Identity": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\dropdown.css",
       "SourceId": "ResumeProject",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\",
       "BasePath": "_content/ResumeProject",
-      "RelativePath": "CSS/formClass#[.{fingerprint}]?.css",
+      "RelativePath": "CSS/dropdown#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -157,19 +178,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "cwc7wmgxbf",
-      "Integrity": "DLXxy6b4+I0Yx7z89rE7qk1Y/ZaGZrT1Scs9cBUuozk=",
+      "Fingerprint": "ssom20w5u2",
+      "Integrity": "DKki2Y4dTRcPnT2gjRv3arrhJUNJZZfylDVKQTtT7nk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\CSS\\formClass.css"
+      "OriginalItemSpec": "wwwroot\\CSS\\dropdown.css"
     },
     {
-      "Identity": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\navClass.css",
+      "Identity": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\layout.css",
       "SourceId": "ResumeProject",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\",
       "BasePath": "_content/ResumeProject",
-      "RelativePath": "CSS/navClass#[.{fingerprint}]?.css",
+      "RelativePath": "CSS/layout#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -178,19 +199,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "f4yrqxp1ur",
-      "Integrity": "fzP+Q73mrJh4kKFZsn3eGP7NzO69NN9PkVEZg5pPVdk=",
+      "Fingerprint": "smdylv69dj",
+      "Integrity": "hCoQ5Kz9ZqBduJNc4kXixDY5nkABQpHypMzgN0JsDh0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\CSS\\navClass.css"
+      "OriginalItemSpec": "wwwroot\\CSS\\layout.css"
     },
     {
-      "Identity": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\styles.css",
+      "Identity": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\nav.css",
       "SourceId": "ResumeProject",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\",
       "BasePath": "_content/ResumeProject",
-      "RelativePath": "CSS/styles#[.{fingerprint}]?.css",
+      "RelativePath": "CSS/nav#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -199,19 +220,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "pfbnrw6hw3",
-      "Integrity": "W0seBb+uhxekZ9WVt+Y9Os1ukolYwkIyBt/8eOpKVrQ=",
+      "Fingerprint": "hur3pvf7dg",
+      "Integrity": "ufQfgx5hFfNeuQd+PaRBS537cUlt2xX5CBQV/eG0cvU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\CSS\\styles.css"
+      "OriginalItemSpec": "wwwroot\\CSS\\nav.css"
     },
     {
-      "Identity": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\JScript\\dropsownScript.js",
+      "Identity": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\reset.css",
       "SourceId": "ResumeProject",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\",
       "BasePath": "_content/ResumeProject",
-      "RelativePath": "JScript/dropsownScript#[.{fingerprint}]?.js",
+      "RelativePath": "CSS/reset#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -220,22 +241,43 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ie97jqadn1",
-      "Integrity": "plmkS6xYDSHy4UBzg96lwMZlC1soPqo5UBoMnd/Uz6I=",
+      "Fingerprint": "hhdxbo2o5h",
+      "Integrity": "e9JhJJQR4iy4qtWCoFAU2JY1yDTe1hLEehXVwaAJWLk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\JScript\\dropsownScript.js"
+      "OriginalItemSpec": "wwwroot\\CSS\\reset.css"
+    },
+    {
+      "Identity": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\JScript\\script.js",
+      "SourceId": "ResumeProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\",
+      "BasePath": "_content/ResumeProject",
+      "RelativePath": "JScript/script#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "d3kjk2ho04",
+      "Integrity": "edhpECVxfvFMgtZYKFYXQlKNevEPVkdASB2Nakd0Wa4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\JScript\\script.js"
     }
   ],
   "Endpoints": [
     {
-      "Route": "CSS/buttonClass.9vjg8zfkzg.css",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\k6ybq1udc7-9vjg8zfkzg.gz",
+      "Route": "CSS/button.css",
+      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\u868rl2k7o-zbf3yv5cc4.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002801120448"
+          "Quality": "0.002923976608"
         }
       ],
       "ResponseHeaders": [
@@ -245,15 +287,152 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "356"
+          "Value": "341"
         },
         {
           "Name": "ETag",
-          "Value": "\"ML/wSMWunWrCEblss76CY8gYcAp57gb2fJ9NuXju9rc=\""
+          "Value": "\"cp4NScysDNW4rCwMMN2qahPMFyuqWbUMwSVRJPHbOrM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Feb 2025 16:01:40 GMT"
+          "Value": "Mon, 17 Feb 2025 20:49:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"X/6VNHbV9AMsUDG5HxI2Bt4DXKb7qRn946F2Z3mgBo0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-X/6VNHbV9AMsUDG5HxI2Bt4DXKb7qRn946F2Z3mgBo0="
+        }
+      ]
+    },
+    {
+      "Route": "CSS/button.css",
+      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\button.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "705"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X/6VNHbV9AMsUDG5HxI2Bt4DXKb7qRn946F2Z3mgBo0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Feb 2025 20:49:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-X/6VNHbV9AMsUDG5HxI2Bt4DXKb7qRn946F2Z3mgBo0="
+        }
+      ]
+    },
+    {
+      "Route": "CSS/button.css.gz",
+      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\u868rl2k7o-zbf3yv5cc4.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "341"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cp4NScysDNW4rCwMMN2qahPMFyuqWbUMwSVRJPHbOrM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Feb 2025 20:49:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cp4NScysDNW4rCwMMN2qahPMFyuqWbUMwSVRJPHbOrM="
+        }
+      ]
+    },
+    {
+      "Route": "CSS/button.zbf3yv5cc4.css",
+      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\u868rl2k7o-zbf3yv5cc4.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002923976608"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "341"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cp4NScysDNW4rCwMMN2qahPMFyuqWbUMwSVRJPHbOrM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Feb 2025 20:49:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -273,27 +452,27 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"a9Pg5UGTFcPjdg4wcSGGuk9nYWg4Ab69i/hKgfWZ4x8=\""
+          "Value": "W/\"X/6VNHbV9AMsUDG5HxI2Bt4DXKb7qRn946F2Z3mgBo0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "9vjg8zfkzg"
+          "Value": "zbf3yv5cc4"
         },
         {
           "Name": "label",
-          "Value": "CSS/buttonClass.css"
+          "Value": "CSS/button.css"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-a9Pg5UGTFcPjdg4wcSGGuk9nYWg4Ab69i/hKgfWZ4x8="
+          "Value": "sha256-X/6VNHbV9AMsUDG5HxI2Bt4DXKb7qRn946F2Z3mgBo0="
         }
       ]
     },
     {
-      "Route": "CSS/buttonClass.9vjg8zfkzg.css",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\buttonClass.css",
+      "Route": "CSS/button.zbf3yv5cc4.css",
+      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\button.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -302,7 +481,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "813"
+          "Value": "705"
         },
         {
           "Name": "Content-Type",
@@ -310,11 +489,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"a9Pg5UGTFcPjdg4wcSGGuk9nYWg4Ab69i/hKgfWZ4x8=\""
+          "Value": "\"X/6VNHbV9AMsUDG5HxI2Bt4DXKb7qRn946F2Z3mgBo0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Feb 2025 16:01:40 GMT"
+          "Value": "Mon, 17 Feb 2025 20:49:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -324,21 +503,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "9vjg8zfkzg"
+          "Value": "zbf3yv5cc4"
         },
         {
           "Name": "label",
-          "Value": "CSS/buttonClass.css"
+          "Value": "CSS/button.css"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-a9Pg5UGTFcPjdg4wcSGGuk9nYWg4Ab69i/hKgfWZ4x8="
+          "Value": "sha256-X/6VNHbV9AMsUDG5HxI2Bt4DXKb7qRn946F2Z3mgBo0="
         }
       ]
     },
     {
-      "Route": "CSS/buttonClass.9vjg8zfkzg.css.gz",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\k6ybq1udc7-9vjg8zfkzg.gz",
+      "Route": "CSS/button.zbf3yv5cc4.css.gz",
+      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\u868rl2k7o-zbf3yv5cc4.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -347,7 +526,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "356"
+          "Value": "341"
         },
         {
           "Name": "Content-Type",
@@ -355,11 +534,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ML/wSMWunWrCEblss76CY8gYcAp57gb2fJ9NuXju9rc=\""
+          "Value": "\"cp4NScysDNW4rCwMMN2qahPMFyuqWbUMwSVRJPHbOrM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Feb 2025 16:01:40 GMT"
+          "Value": "Mon, 17 Feb 2025 20:49:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -377,26 +556,26 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "9vjg8zfkzg"
+          "Value": "zbf3yv5cc4"
         },
         {
           "Name": "label",
-          "Value": "CSS/buttonClass.css.gz"
+          "Value": "CSS/button.css.gz"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ML/wSMWunWrCEblss76CY8gYcAp57gb2fJ9NuXju9rc="
+          "Value": "sha256-cp4NScysDNW4rCwMMN2qahPMFyuqWbUMwSVRJPHbOrM="
         }
       ]
     },
     {
-      "Route": "CSS/buttonClass.css",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\k6ybq1udc7-9vjg8zfkzg.gz",
+      "Route": "CSS/dropdown.css",
+      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\dho87qvdnx-ssom20w5u2.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002801120448"
+          "Quality": "0.002092050209"
         }
       ],
       "ResponseHeaders": [
@@ -406,15 +585,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "356"
+          "Value": "477"
         },
         {
           "Name": "ETag",
-          "Value": "\"ML/wSMWunWrCEblss76CY8gYcAp57gb2fJ9NuXju9rc=\""
+          "Value": "\"iUUhAnugHs8hTRVlljB2Qo8a9oBUz8/rDquXfp8EjS4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Feb 2025 16:01:40 GMT"
+          "Value": "Mon, 17 Feb 2025 21:24:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -434,19 +613,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"a9Pg5UGTFcPjdg4wcSGGuk9nYWg4Ab69i/hKgfWZ4x8=\""
+          "Value": "W/\"DKki2Y4dTRcPnT2gjRv3arrhJUNJZZfylDVKQTtT7nk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-a9Pg5UGTFcPjdg4wcSGGuk9nYWg4Ab69i/hKgfWZ4x8="
+          "Value": "sha256-DKki2Y4dTRcPnT2gjRv3arrhJUNJZZfylDVKQTtT7nk="
         }
       ]
     },
     {
-      "Route": "CSS/buttonClass.css",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\buttonClass.css",
+      "Route": "CSS/dropdown.css",
+      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\dropdown.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -455,7 +634,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "813"
+          "Value": "1096"
         },
         {
           "Name": "Content-Type",
@@ -463,11 +642,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"a9Pg5UGTFcPjdg4wcSGGuk9nYWg4Ab69i/hKgfWZ4x8=\""
+          "Value": "\"DKki2Y4dTRcPnT2gjRv3arrhJUNJZZfylDVKQTtT7nk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Feb 2025 16:01:40 GMT"
+          "Value": "Mon, 17 Feb 2025 21:24:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -477,13 +656,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-a9Pg5UGTFcPjdg4wcSGGuk9nYWg4Ab69i/hKgfWZ4x8="
+          "Value": "sha256-DKki2Y4dTRcPnT2gjRv3arrhJUNJZZfylDVKQTtT7nk="
         }
       ]
     },
     {
-      "Route": "CSS/buttonClass.css.gz",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\k6ybq1udc7-9vjg8zfkzg.gz",
+      "Route": "CSS/dropdown.css.gz",
+      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\dho87qvdnx-ssom20w5u2.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -492,7 +671,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "356"
+          "Value": "477"
         },
         {
           "Name": "Content-Type",
@@ -500,11 +679,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ML/wSMWunWrCEblss76CY8gYcAp57gb2fJ9NuXju9rc=\""
+          "Value": "\"iUUhAnugHs8hTRVlljB2Qo8a9oBUz8/rDquXfp8EjS4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Feb 2025 16:01:40 GMT"
+          "Value": "Mon, 17 Feb 2025 21:24:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -522,18 +701,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ML/wSMWunWrCEblss76CY8gYcAp57gb2fJ9NuXju9rc="
+          "Value": "sha256-iUUhAnugHs8hTRVlljB2Qo8a9oBUz8/rDquXfp8EjS4="
         }
       ]
     },
     {
-      "Route": "CSS/formClass.css",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\z1m86tfedg-cwc7wmgxbf.gz",
+      "Route": "CSS/dropdown.ssom20w5u2.css",
+      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\dho87qvdnx-ssom20w5u2.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003246753247"
+          "Quality": "0.002092050209"
         }
       ],
       "ResponseHeaders": [
@@ -543,15 +722,176 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "307"
+          "Value": "477"
         },
         {
           "Name": "ETag",
-          "Value": "\"gHck64xv9YVaEJvYlnFzRM2RvsxUKnTfO62ELk3hKR0=\""
+          "Value": "\"iUUhAnugHs8hTRVlljB2Qo8a9oBUz8/rDquXfp8EjS4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Feb 2025 15:57:52 GMT"
+          "Value": "Mon, 17 Feb 2025 21:24:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"DKki2Y4dTRcPnT2gjRv3arrhJUNJZZfylDVKQTtT7nk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ssom20w5u2"
+        },
+        {
+          "Name": "label",
+          "Value": "CSS/dropdown.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DKki2Y4dTRcPnT2gjRv3arrhJUNJZZfylDVKQTtT7nk="
+        }
+      ]
+    },
+    {
+      "Route": "CSS/dropdown.ssom20w5u2.css",
+      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\dropdown.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1096"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DKki2Y4dTRcPnT2gjRv3arrhJUNJZZfylDVKQTtT7nk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Feb 2025 21:24:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ssom20w5u2"
+        },
+        {
+          "Name": "label",
+          "Value": "CSS/dropdown.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DKki2Y4dTRcPnT2gjRv3arrhJUNJZZfylDVKQTtT7nk="
+        }
+      ]
+    },
+    {
+      "Route": "CSS/dropdown.ssom20w5u2.css.gz",
+      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\dho87qvdnx-ssom20w5u2.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "477"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iUUhAnugHs8hTRVlljB2Qo8a9oBUz8/rDquXfp8EjS4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Feb 2025 21:24:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ssom20w5u2"
+        },
+        {
+          "Name": "label",
+          "Value": "CSS/dropdown.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iUUhAnugHs8hTRVlljB2Qo8a9oBUz8/rDquXfp8EjS4="
+        }
+      ]
+    },
+    {
+      "Route": "CSS/layout.css",
+      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\0v13jbvrg6-smdylv69dj.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004115226337"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "242"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xx80Yu6q5zd4sU+5C2lzvWXdoiaTr+q/6jlrtOpejzo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Feb 2025 20:24:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -571,19 +911,921 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"DLXxy6b4+I0Yx7z89rE7qk1Y/ZaGZrT1Scs9cBUuozk=\""
+          "Value": "W/\"hCoQ5Kz9ZqBduJNc4kXixDY5nkABQpHypMzgN0JsDh0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-DLXxy6b4+I0Yx7z89rE7qk1Y/ZaGZrT1Scs9cBUuozk="
+          "Value": "sha256-hCoQ5Kz9ZqBduJNc4kXixDY5nkABQpHypMzgN0JsDh0="
         }
       ]
     },
     {
-      "Route": "CSS/formClass.css",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\formClass.css",
+      "Route": "CSS/layout.css",
+      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\layout.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "343"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hCoQ5Kz9ZqBduJNc4kXixDY5nkABQpHypMzgN0JsDh0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Feb 2025 20:24:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hCoQ5Kz9ZqBduJNc4kXixDY5nkABQpHypMzgN0JsDh0="
+        }
+      ]
+    },
+    {
+      "Route": "CSS/layout.css.gz",
+      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\0v13jbvrg6-smdylv69dj.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "242"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xx80Yu6q5zd4sU+5C2lzvWXdoiaTr+q/6jlrtOpejzo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Feb 2025 20:24:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xx80Yu6q5zd4sU+5C2lzvWXdoiaTr+q/6jlrtOpejzo="
+        }
+      ]
+    },
+    {
+      "Route": "CSS/layout.smdylv69dj.css",
+      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\0v13jbvrg6-smdylv69dj.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004115226337"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "242"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xx80Yu6q5zd4sU+5C2lzvWXdoiaTr+q/6jlrtOpejzo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Feb 2025 20:24:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"hCoQ5Kz9ZqBduJNc4kXixDY5nkABQpHypMzgN0JsDh0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "smdylv69dj"
+        },
+        {
+          "Name": "label",
+          "Value": "CSS/layout.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hCoQ5Kz9ZqBduJNc4kXixDY5nkABQpHypMzgN0JsDh0="
+        }
+      ]
+    },
+    {
+      "Route": "CSS/layout.smdylv69dj.css",
+      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\layout.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "343"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hCoQ5Kz9ZqBduJNc4kXixDY5nkABQpHypMzgN0JsDh0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Feb 2025 20:24:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "smdylv69dj"
+        },
+        {
+          "Name": "label",
+          "Value": "CSS/layout.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hCoQ5Kz9ZqBduJNc4kXixDY5nkABQpHypMzgN0JsDh0="
+        }
+      ]
+    },
+    {
+      "Route": "CSS/layout.smdylv69dj.css.gz",
+      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\0v13jbvrg6-smdylv69dj.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "242"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xx80Yu6q5zd4sU+5C2lzvWXdoiaTr+q/6jlrtOpejzo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Feb 2025 20:24:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "smdylv69dj"
+        },
+        {
+          "Name": "label",
+          "Value": "CSS/layout.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xx80Yu6q5zd4sU+5C2lzvWXdoiaTr+q/6jlrtOpejzo="
+        }
+      ]
+    },
+    {
+      "Route": "CSS/nav.css",
+      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\5myvg4hgf2-hur3pvf7dg.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002695417790"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "370"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pnJe/fvcQh5EK0Klip+O4Bqa52KOUtoaDcmyAsGLKnY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Feb 2025 21:24:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ufQfgx5hFfNeuQd+PaRBS537cUlt2xX5CBQV/eG0cvU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ufQfgx5hFfNeuQd+PaRBS537cUlt2xX5CBQV/eG0cvU="
+        }
+      ]
+    },
+    {
+      "Route": "CSS/nav.css",
+      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\nav.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "719"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ufQfgx5hFfNeuQd+PaRBS537cUlt2xX5CBQV/eG0cvU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Feb 2025 21:24:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ufQfgx5hFfNeuQd+PaRBS537cUlt2xX5CBQV/eG0cvU="
+        }
+      ]
+    },
+    {
+      "Route": "CSS/nav.css.gz",
+      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\5myvg4hgf2-hur3pvf7dg.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "370"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pnJe/fvcQh5EK0Klip+O4Bqa52KOUtoaDcmyAsGLKnY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Feb 2025 21:24:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pnJe/fvcQh5EK0Klip+O4Bqa52KOUtoaDcmyAsGLKnY="
+        }
+      ]
+    },
+    {
+      "Route": "CSS/nav.hur3pvf7dg.css",
+      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\5myvg4hgf2-hur3pvf7dg.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002695417790"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "370"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pnJe/fvcQh5EK0Klip+O4Bqa52KOUtoaDcmyAsGLKnY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Feb 2025 21:24:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ufQfgx5hFfNeuQd+PaRBS537cUlt2xX5CBQV/eG0cvU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hur3pvf7dg"
+        },
+        {
+          "Name": "label",
+          "Value": "CSS/nav.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ufQfgx5hFfNeuQd+PaRBS537cUlt2xX5CBQV/eG0cvU="
+        }
+      ]
+    },
+    {
+      "Route": "CSS/nav.hur3pvf7dg.css",
+      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\nav.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "719"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ufQfgx5hFfNeuQd+PaRBS537cUlt2xX5CBQV/eG0cvU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Feb 2025 21:24:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hur3pvf7dg"
+        },
+        {
+          "Name": "label",
+          "Value": "CSS/nav.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ufQfgx5hFfNeuQd+PaRBS537cUlt2xX5CBQV/eG0cvU="
+        }
+      ]
+    },
+    {
+      "Route": "CSS/nav.hur3pvf7dg.css.gz",
+      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\5myvg4hgf2-hur3pvf7dg.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "370"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pnJe/fvcQh5EK0Klip+O4Bqa52KOUtoaDcmyAsGLKnY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Feb 2025 21:24:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hur3pvf7dg"
+        },
+        {
+          "Name": "label",
+          "Value": "CSS/nav.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pnJe/fvcQh5EK0Klip+O4Bqa52KOUtoaDcmyAsGLKnY="
+        }
+      ]
+    },
+    {
+      "Route": "CSS/reset.css",
+      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\bn2mvh9rh7-hhdxbo2o5h.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.010752688172"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "92"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nb09VSBiqPSvRGmq0xeetxtXrsx6LQYEE5vnbze7+Io=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Feb 2025 20:32:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"e9JhJJQR4iy4qtWCoFAU2JY1yDTe1hLEehXVwaAJWLk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-e9JhJJQR4iy4qtWCoFAU2JY1yDTe1hLEehXVwaAJWLk="
+        }
+      ]
+    },
+    {
+      "Route": "CSS/reset.css",
+      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\reset.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e9JhJJQR4iy4qtWCoFAU2JY1yDTe1hLEehXVwaAJWLk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Feb 2025 20:32:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-e9JhJJQR4iy4qtWCoFAU2JY1yDTe1hLEehXVwaAJWLk="
+        }
+      ]
+    },
+    {
+      "Route": "CSS/reset.css.gz",
+      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\bn2mvh9rh7-hhdxbo2o5h.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "92"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nb09VSBiqPSvRGmq0xeetxtXrsx6LQYEE5vnbze7+Io=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Feb 2025 20:32:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nb09VSBiqPSvRGmq0xeetxtXrsx6LQYEE5vnbze7+Io="
+        }
+      ]
+    },
+    {
+      "Route": "CSS/reset.hhdxbo2o5h.css",
+      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\bn2mvh9rh7-hhdxbo2o5h.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.010752688172"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "92"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nb09VSBiqPSvRGmq0xeetxtXrsx6LQYEE5vnbze7+Io=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Feb 2025 20:32:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"e9JhJJQR4iy4qtWCoFAU2JY1yDTe1hLEehXVwaAJWLk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hhdxbo2o5h"
+        },
+        {
+          "Name": "label",
+          "Value": "CSS/reset.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-e9JhJJQR4iy4qtWCoFAU2JY1yDTe1hLEehXVwaAJWLk="
+        }
+      ]
+    },
+    {
+      "Route": "CSS/reset.hhdxbo2o5h.css",
+      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\reset.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e9JhJJQR4iy4qtWCoFAU2JY1yDTe1hLEehXVwaAJWLk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Feb 2025 20:32:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hhdxbo2o5h"
+        },
+        {
+          "Name": "label",
+          "Value": "CSS/reset.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-e9JhJJQR4iy4qtWCoFAU2JY1yDTe1hLEehXVwaAJWLk="
+        }
+      ]
+    },
+    {
+      "Route": "CSS/reset.hhdxbo2o5h.css.gz",
+      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\bn2mvh9rh7-hhdxbo2o5h.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "92"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nb09VSBiqPSvRGmq0xeetxtXrsx6LQYEE5vnbze7+Io=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Feb 2025 20:32:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hhdxbo2o5h"
+        },
+        {
+          "Name": "label",
+          "Value": "CSS/reset.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nb09VSBiqPSvRGmq0xeetxtXrsx6LQYEE5vnbze7+Io="
+        }
+      ]
+    },
+    {
+      "Route": "JScript/script.d3kjk2ho04.js",
+      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\kb03a262xt-d3kjk2ho04.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003521126761"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "283"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Af8O3po6Tt6/ir2me2GqNwx5gISus2sRGUFzJ/njKE0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Feb 2025 21:01:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"edhpECVxfvFMgtZYKFYXQlKNevEPVkdASB2Nakd0Wa4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d3kjk2ho04"
+        },
+        {
+          "Name": "label",
+          "Value": "JScript/script.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-edhpECVxfvFMgtZYKFYXQlKNevEPVkdASB2Nakd0Wa4="
+        }
+      ]
+    },
+    {
+      "Route": "JScript/script.d3kjk2ho04.js",
+      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\JScript\\script.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -596,31 +1838,39 @@
         },
         {
           "Name": "Content-Type",
-          "Value": "text/css"
+          "Value": "text/javascript"
         },
         {
           "Name": "ETag",
-          "Value": "\"DLXxy6b4+I0Yx7z89rE7qk1Y/ZaGZrT1Scs9cBUuozk=\""
+          "Value": "\"edhpECVxfvFMgtZYKFYXQlKNevEPVkdASB2Nakd0Wa4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Feb 2025 15:57:52 GMT"
+          "Value": "Mon, 17 Feb 2025 21:01:08 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "d3kjk2ho04"
+        },
+        {
+          "Name": "label",
+          "Value": "JScript/script.js"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-DLXxy6b4+I0Yx7z89rE7qk1Y/ZaGZrT1Scs9cBUuozk="
+          "Value": "sha256-edhpECVxfvFMgtZYKFYXQlKNevEPVkdASB2Nakd0Wa4="
         }
       ]
     },
     {
-      "Route": "CSS/formClass.css.gz",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\z1m86tfedg-cwc7wmgxbf.gz",
+      "Route": "JScript/script.d3kjk2ho04.js.gz",
+      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\kb03a262xt-d3kjk2ho04.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -629,66 +1879,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "307"
+          "Value": "283"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/css"
+          "Value": "text/javascript"
         },
         {
           "Name": "ETag",
-          "Value": "\"gHck64xv9YVaEJvYlnFzRM2RvsxUKnTfO62ELk3hKR0=\""
+          "Value": "\"Af8O3po6Tt6/ir2me2GqNwx5gISus2sRGUFzJ/njKE0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Feb 2025 15:57:52 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-gHck64xv9YVaEJvYlnFzRM2RvsxUKnTfO62ELk3hKR0="
-        }
-      ]
-    },
-    {
-      "Route": "CSS/formClass.cwc7wmgxbf.css",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\z1m86tfedg-cwc7wmgxbf.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.003246753247"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "307"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"gHck64xv9YVaEJvYlnFzRM2RvsxUKnTfO62ELk3hKR0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 16 Feb 2025 15:57:52 GMT"
+          "Value": "Mon, 17 Feb 2025 21:01:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -701,34 +1904,81 @@
         {
           "Name": "Vary",
           "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"DLXxy6b4+I0Yx7z89rE7qk1Y/ZaGZrT1Scs9cBUuozk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "cwc7wmgxbf"
+          "Value": "d3kjk2ho04"
         },
         {
           "Name": "label",
-          "Value": "CSS/formClass.css"
+          "Value": "JScript/script.js.gz"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-DLXxy6b4+I0Yx7z89rE7qk1Y/ZaGZrT1Scs9cBUuozk="
+          "Value": "sha256-Af8O3po6Tt6/ir2me2GqNwx5gISus2sRGUFzJ/njKE0="
         }
       ]
     },
     {
-      "Route": "CSS/formClass.cwc7wmgxbf.css",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\formClass.css",
+      "Route": "JScript/script.js",
+      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\kb03a262xt-d3kjk2ho04.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003521126761"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "283"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Af8O3po6Tt6/ir2me2GqNwx5gISus2sRGUFzJ/njKE0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Feb 2025 21:01:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"edhpECVxfvFMgtZYKFYXQlKNevEPVkdASB2Nakd0Wa4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-edhpECVxfvFMgtZYKFYXQlKNevEPVkdASB2Nakd0Wa4="
+        }
+      ]
+    },
+    {
+      "Route": "JScript/script.js",
+      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\JScript\\script.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -741,168 +1991,15 @@
         },
         {
           "Name": "Content-Type",
-          "Value": "text/css"
+          "Value": "text/javascript"
         },
         {
           "Name": "ETag",
-          "Value": "\"DLXxy6b4+I0Yx7z89rE7qk1Y/ZaGZrT1Scs9cBUuozk=\""
+          "Value": "\"edhpECVxfvFMgtZYKFYXQlKNevEPVkdASB2Nakd0Wa4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Feb 2025 15:57:52 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "cwc7wmgxbf"
-        },
-        {
-          "Name": "label",
-          "Value": "CSS/formClass.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-DLXxy6b4+I0Yx7z89rE7qk1Y/ZaGZrT1Scs9cBUuozk="
-        }
-      ]
-    },
-    {
-      "Route": "CSS/formClass.cwc7wmgxbf.css.gz",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\z1m86tfedg-cwc7wmgxbf.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "307"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"gHck64xv9YVaEJvYlnFzRM2RvsxUKnTfO62ELk3hKR0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 16 Feb 2025 15:57:52 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "cwc7wmgxbf"
-        },
-        {
-          "Name": "label",
-          "Value": "CSS/formClass.css.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-gHck64xv9YVaEJvYlnFzRM2RvsxUKnTfO62ELk3hKR0="
-        }
-      ]
-    },
-    {
-      "Route": "CSS/navClass.css",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\8lm063xcya-f4yrqxp1ur.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001718213058"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "581"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"kxFbAE7YJbngJDtnlMBSwhX7fTb3Xy6uX4gmB7uYKLU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 16 Feb 2025 20:15:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"fzP+Q73mrJh4kKFZsn3eGP7NzO69NN9PkVEZg5pPVdk=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-fzP+Q73mrJh4kKFZsn3eGP7NzO69NN9PkVEZg5pPVdk="
-        }
-      ]
-    },
-    {
-      "Route": "CSS/navClass.css",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\navClass.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1941"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"fzP+Q73mrJh4kKFZsn3eGP7NzO69NN9PkVEZg5pPVdk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 16 Feb 2025 20:15:20 GMT"
+          "Value": "Mon, 17 Feb 2025 21:01:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -912,13 +2009,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-fzP+Q73mrJh4kKFZsn3eGP7NzO69NN9PkVEZg5pPVdk="
+          "Value": "sha256-edhpECVxfvFMgtZYKFYXQlKNevEPVkdASB2Nakd0Wa4="
         }
       ]
     },
     {
-      "Route": "CSS/navClass.css.gz",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\8lm063xcya-f4yrqxp1ur.gz",
+      "Route": "JScript/script.js.gz",
+      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\kb03a262xt-d3kjk2ho04.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -927,537 +2024,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "581"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"kxFbAE7YJbngJDtnlMBSwhX7fTb3Xy6uX4gmB7uYKLU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 16 Feb 2025 20:15:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-kxFbAE7YJbngJDtnlMBSwhX7fTb3Xy6uX4gmB7uYKLU="
-        }
-      ]
-    },
-    {
-      "Route": "CSS/navClass.f4yrqxp1ur.css",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\8lm063xcya-f4yrqxp1ur.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001718213058"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "581"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"kxFbAE7YJbngJDtnlMBSwhX7fTb3Xy6uX4gmB7uYKLU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 16 Feb 2025 20:15:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"fzP+Q73mrJh4kKFZsn3eGP7NzO69NN9PkVEZg5pPVdk=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "f4yrqxp1ur"
-        },
-        {
-          "Name": "label",
-          "Value": "CSS/navClass.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-fzP+Q73mrJh4kKFZsn3eGP7NzO69NN9PkVEZg5pPVdk="
-        }
-      ]
-    },
-    {
-      "Route": "CSS/navClass.f4yrqxp1ur.css",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\navClass.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1941"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"fzP+Q73mrJh4kKFZsn3eGP7NzO69NN9PkVEZg5pPVdk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 16 Feb 2025 20:15:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "f4yrqxp1ur"
-        },
-        {
-          "Name": "label",
-          "Value": "CSS/navClass.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-fzP+Q73mrJh4kKFZsn3eGP7NzO69NN9PkVEZg5pPVdk="
-        }
-      ]
-    },
-    {
-      "Route": "CSS/navClass.f4yrqxp1ur.css.gz",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\8lm063xcya-f4yrqxp1ur.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "581"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"kxFbAE7YJbngJDtnlMBSwhX7fTb3Xy6uX4gmB7uYKLU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 16 Feb 2025 20:15:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "f4yrqxp1ur"
-        },
-        {
-          "Name": "label",
-          "Value": "CSS/navClass.css.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-kxFbAE7YJbngJDtnlMBSwhX7fTb3Xy6uX4gmB7uYKLU="
-        }
-      ]
-    },
-    {
-      "Route": "CSS/styles.css",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\tfsvifcb4h-pfbnrw6hw3.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001133786848"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "881"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"KAwbIu6KV4Al3/xLD/tvqMaMIxvqxpKh/DSIR6ZgX+s=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 16 Feb 2025 14:46:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"W0seBb+uhxekZ9WVt+Y9Os1ukolYwkIyBt/8eOpKVrQ=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-W0seBb+uhxekZ9WVt+Y9Os1ukolYwkIyBt/8eOpKVrQ="
-        }
-      ]
-    },
-    {
-      "Route": "CSS/styles.css",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3324"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"W0seBb+uhxekZ9WVt+Y9Os1ukolYwkIyBt/8eOpKVrQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 16 Feb 2025 14:46:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-W0seBb+uhxekZ9WVt+Y9Os1ukolYwkIyBt/8eOpKVrQ="
-        }
-      ]
-    },
-    {
-      "Route": "CSS/styles.css.gz",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\tfsvifcb4h-pfbnrw6hw3.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "881"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"KAwbIu6KV4Al3/xLD/tvqMaMIxvqxpKh/DSIR6ZgX+s=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 16 Feb 2025 14:46:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-KAwbIu6KV4Al3/xLD/tvqMaMIxvqxpKh/DSIR6ZgX+s="
-        }
-      ]
-    },
-    {
-      "Route": "CSS/styles.pfbnrw6hw3.css",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\tfsvifcb4h-pfbnrw6hw3.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001133786848"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "881"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"KAwbIu6KV4Al3/xLD/tvqMaMIxvqxpKh/DSIR6ZgX+s=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 16 Feb 2025 14:46:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"W0seBb+uhxekZ9WVt+Y9Os1ukolYwkIyBt/8eOpKVrQ=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "pfbnrw6hw3"
-        },
-        {
-          "Name": "label",
-          "Value": "CSS/styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-W0seBb+uhxekZ9WVt+Y9Os1ukolYwkIyBt/8eOpKVrQ="
-        }
-      ]
-    },
-    {
-      "Route": "CSS/styles.pfbnrw6hw3.css",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3324"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"W0seBb+uhxekZ9WVt+Y9Os1ukolYwkIyBt/8eOpKVrQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 16 Feb 2025 14:46:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "pfbnrw6hw3"
-        },
-        {
-          "Name": "label",
-          "Value": "CSS/styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-W0seBb+uhxekZ9WVt+Y9Os1ukolYwkIyBt/8eOpKVrQ="
-        }
-      ]
-    },
-    {
-      "Route": "CSS/styles.pfbnrw6hw3.css.gz",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\tfsvifcb4h-pfbnrw6hw3.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "881"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"KAwbIu6KV4Al3/xLD/tvqMaMIxvqxpKh/DSIR6ZgX+s=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 16 Feb 2025 14:46:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "pfbnrw6hw3"
-        },
-        {
-          "Name": "label",
-          "Value": "CSS/styles.css.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-KAwbIu6KV4Al3/xLD/tvqMaMIxvqxpKh/DSIR6ZgX+s="
-        }
-      ]
-    },
-    {
-      "Route": "JScript/dropsownScript.ie97jqadn1.js",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\6hmgck47xb-ie97jqadn1.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.003412969283"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "292"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"+y1ZikZTC47MSe60hg/e7cAkIpKZucWzSpCyf5XCcI4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 16 Feb 2025 20:14:14 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
+          "Value": "283"
         },
         {
           "Name": "Content-Type",
@@ -1465,238 +2032,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"plmkS6xYDSHy4UBzg96lwMZlC1soPqo5UBoMnd/Uz6I=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ie97jqadn1"
-        },
-        {
-          "Name": "label",
-          "Value": "JScript/dropsownScript.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-plmkS6xYDSHy4UBzg96lwMZlC1soPqo5UBoMnd/Uz6I="
-        }
-      ]
-    },
-    {
-      "Route": "JScript/dropsownScript.ie97jqadn1.js",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\JScript\\dropsownScript.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "613"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"plmkS6xYDSHy4UBzg96lwMZlC1soPqo5UBoMnd/Uz6I=\""
+          "Value": "\"Af8O3po6Tt6/ir2me2GqNwx5gISus2sRGUFzJ/njKE0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Feb 2025 20:14:14 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ie97jqadn1"
-        },
-        {
-          "Name": "label",
-          "Value": "JScript/dropsownScript.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-plmkS6xYDSHy4UBzg96lwMZlC1soPqo5UBoMnd/Uz6I="
-        }
-      ]
-    },
-    {
-      "Route": "JScript/dropsownScript.ie97jqadn1.js.gz",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\6hmgck47xb-ie97jqadn1.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "292"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"+y1ZikZTC47MSe60hg/e7cAkIpKZucWzSpCyf5XCcI4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 16 Feb 2025 20:14:14 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ie97jqadn1"
-        },
-        {
-          "Name": "label",
-          "Value": "JScript/dropsownScript.js.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-+y1ZikZTC47MSe60hg/e7cAkIpKZucWzSpCyf5XCcI4="
-        }
-      ]
-    },
-    {
-      "Route": "JScript/dropsownScript.js",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\6hmgck47xb-ie97jqadn1.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.003412969283"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "292"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"+y1ZikZTC47MSe60hg/e7cAkIpKZucWzSpCyf5XCcI4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 16 Feb 2025 20:14:14 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"plmkS6xYDSHy4UBzg96lwMZlC1soPqo5UBoMnd/Uz6I=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-plmkS6xYDSHy4UBzg96lwMZlC1soPqo5UBoMnd/Uz6I="
-        }
-      ]
-    },
-    {
-      "Route": "JScript/dropsownScript.js",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\JScript\\dropsownScript.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "613"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"plmkS6xYDSHy4UBzg96lwMZlC1soPqo5UBoMnd/Uz6I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 16 Feb 2025 20:14:14 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-plmkS6xYDSHy4UBzg96lwMZlC1soPqo5UBoMnd/Uz6I="
-        }
-      ]
-    },
-    {
-      "Route": "JScript/dropsownScript.js.gz",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\6hmgck47xb-ie97jqadn1.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "292"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"+y1ZikZTC47MSe60hg/e7cAkIpKZucWzSpCyf5XCcI4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 16 Feb 2025 20:14:14 GMT"
+          "Value": "Mon, 17 Feb 2025 21:01:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1714,7 +2054,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-+y1ZikZTC47MSe60hg/e7cAkIpKZucWzSpCyf5XCcI4="
+          "Value": "sha256-Af8O3po6Tt6/ir2me2GqNwx5gISus2sRGUFzJ/njKE0="
         }
       ]
     }
