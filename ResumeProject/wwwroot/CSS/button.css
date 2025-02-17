@@ -1,0 +1,28 @@
+﻿/* General Button Styling */
+.button-align button{
+    background-color: white;
+    color: #8B0000; /* Accent Color */
+    border: 2px solid #8B0000; /* Border matches the accent */
+    padding: 7px 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Button hover Effect */
+.button-align button:hover{
+    background-color: #8B0000;
+    color: white;
+}
+
+/* Special Button for Danger Actions (e.g., Delete) */
+.button-align .danger{
+    border-color: #D32F2F; /* Dark Red for Danger */
+    color: #D32F2F;
+}
+
+.button-align .danger:hover {
+    background-color: #D32F2F;
+    color: white;
+}

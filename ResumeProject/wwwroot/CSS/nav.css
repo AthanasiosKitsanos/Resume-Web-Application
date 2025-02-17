@@ -1,0 +1,36 @@
+﻿/* Navigation Container */
+.nav-container{
+    background-color: #F5F5F5;
+    border-bottom: 2px solid #eee;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+/* Navigation List */
+.nav-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Navigation Items */
+.nav-item{
+    margin-right: 20px;
+}
+
+/* Navigation Lings and Text */
+.nav-item a, .nav-item p{
+    text-decoration: none;
+    color: #808080;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+/* Hover Effect using Accent Color (#8B0000) */
+.nav-item a:hover{
+    color: #8B0000;
+    background-color: #b3b3b3;
+}
