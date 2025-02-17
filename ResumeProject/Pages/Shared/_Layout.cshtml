@@ -8,7 +8,17 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>@ViewData["Title"] - Resume Web Application</title>
-        <link rel="stylesheet" href="~/CSS/navClass.css" asp-append-version="true">
+
+        <!-- base styles-->
+        <link rel="stylesheet" href="~/CSS/nav.css" asp-append-version="true">
+
+        <!-- Layout and section specific styles -->
+        <link rel="stylesheet" href="~/CSS/layout.css" asp-append-version="true">
+        <link rel="stylesheet" href="~/CSS/nav.css" asp-append-version="true">
+        <link rel="stylesheet" href="~/CSS/dropdown.css" asp-append-version="true">
+        <link rel="stylesheet" href="~/CSS/buttons.css" asp-append-version="true">
+
+
         @RenderSection("Styles", required: false) 
     </head>
     <body>
@@ -24,8 +34,11 @@
                         var firstName = User.FindFirst("FirstName")?.Value;
                         var lastName = User.FindFirst("LastName")?.Value;
                         var fullName = (!string.IsNullOrEmpty(firstName) && !string.IsNullOrEmpty(lastName)) ? $"{firstName} {lastName}" : User.Identity.Name;
-                        <li class="color-white">
-                            @fullName
+
+                        <li class="nav-item">
+                            <p>
+                                @fullName
+                            </p>
                         </li>
 
                         <li class="nav-item">
@@ -35,26 +48,34 @@
                         <li class="nav-item">
                             <a href="/Account/Update">Update Info</a>
                         </li>
-
+                        
+                        <!-- Log Out Button -->
                         <li class="button-align">
                             <form method="post" asp-page="/Account/Logout">
                                 <button type="submit">Log Out</button> 
+                            </form>
+                        </li>
+
+                        <li class="button-align">
+                            <form method="post" asp-page="/Account/Delete">
+                                <button type="submit" class="danger">Delete Account</button>
                             </form>
                         </li>
                     }
                     else
                     {
                         <li class="nav-item dropdown">
-                                <p>Account</p>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a href="/Account/Register">Register</a>
-                                    </li>
+                            <p>Account</p>
 
-                                    <li>
-                                        <a href="/Account/Login">Login</a>    
-                                    </li>
-                                </ul>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="/Account/Register">Register</a>
+                                </li>
+
+                                <li>
+                                    <a href="/Account/Login">Login</a>    
+                                </li>
+                            </ul>
                         </li>
                     }
                 </ul>   
@@ -69,7 +90,8 @@
             
         </footer>
 
-        <script src="~/JScript/dropsownScript.js"></script>
+        <!-- link to JScript File -->
+        <script src="~/JScript/script.js"></script>
 
     </body>
 </html>
