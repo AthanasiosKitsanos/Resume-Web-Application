@@ -1,21 +1,94 @@
 document.addEventListener("DOMContentLoaded", function()
-{   
-    // Select all elements with the class "dropdown"
-    var dropdowns = document.querySelectorAll('.dropdown');
+{
+    var gearIcon = document.querySelector('.gear-icon');
 
-    // For each dropdown, add mouseenter and mouseleave event listeners
-    dropdowns.forEach(function(dropdown)
+    var gearDropdownMenu = document.querySelector('.gear-dropdown-menu');
+
+    if(gearIcon && gearDropdownMenu)
     {
-        var menu = dropdown.querySelector('.dropdown-menu');
-
-        dropdown.addEventListener('mouseenter', function()
+        function openDropdown()
         {
-            menu.classList.add('open');
+            gearDropdownMenu.classList.add('open');
+            gearIcon.style.transform = 'rotate(180deg)';
+        }
+
+        function closeDropdown()
+        {
+            gearDropdownMenu.classList.remove('open');
+            gearIcon.style.transform = 'rotate(0deg)';
+        }
+
+        // Gear Icon
+        gearIcon.addEventListener('mouseenter', openDropdown);
+
+        gearIcon.addEventListener('mouseleave', function()
+        {
+            setTimeout(function()
+            {
+                if(!gearDropdownMenu.matches(':hover'))
+                {
+                    closeDropdown();
+                }
+            }, 100);
         });
+
+        // Gear Dropdown Menu
+        gearDropdownMenu.addEventListener('mouseenter', openDropdown);
+
+        gearDropdownMenu.addEventListener('mouseleave', function()
+        {
+            setTimeout(function()
+            {
+                if(!gearIcon.matches(':hover'))
+                {
+                    closeDropdown();
+                }
+            }, 100);
+        });
+    }
+
+    var dropdown = document.querySelector('.dropdown');
+
+    var dropdownMenu = document.querySelector('.dropdown-menu');
+
+    if(dropdown && dropdownMenu)
+    {
+        function openDropdown()
+        {
+            dropdownMenu.classList.add('open');
+        }
+
+        function closeDropdown()
+        {
+            dropdownMenu.classList.remove('open');
+        }
+
+        // Dropdown
+        dropdown.addEventListener('mouseenter', openDropdown);
 
         dropdown.addEventListener('mouseleave', function()
         {
-            menu.classList.remove('open');
+            setTimeout(function()
+            {
+                if(!dropdownMenu.matches(':hover'))
+                {
+                    closeDropdown();
+                }
+            }, 100);
         });
-    });
+
+        // Dropdown Menu
+        dropdownMenu.addEventListener('mouseenter', openDropdown);
+
+        dropdownMenu.addEventListener('mouseleave', function()
+        {
+            setTimeout(function()
+            {
+                if(!dropdown.matches(':hover'))
+                {
+                    closeDropdown();
+                }
+            }, 100);
+        });
+    }
 });
