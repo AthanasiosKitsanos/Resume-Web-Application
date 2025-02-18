@@ -1,36 +1,46 @@
 ﻿/* Navigation Container */
 .nav-container{
-    background-color: #F5F5F5;
+    background-color: #991B1B;
     border-bottom: 2px solid #eee;
-    padding: 15px 20px;
-    border-radius: 5px;
+    padding: 12px 24px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 /* Navigation List */
 .nav-list{
-    list-style: none;
     display: flex;
-    justify-content: space-between;
+    gap: 20px;
+    list-style: none;
     align-items: center;
 }
 
-/* Navigation Items */
-.nav-item{
-    margin-right: 20px;
-}
-
-/* Navigation Lings and Text */
-.nav-item a, .nav-item p{
+/* Navigation Links */
+.nav-container a, .nav-container p{
+    color: #E5E7EB;
     text-decoration: none;
-    color: #808080;
-    padding: 15px;
-    border-radius: 5px;
-    font-size: 16px;
-    transition: all 0.3s ease;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 16px;
+    border-radius: 8px;
+    transition: color 0.3s ease, background-color 0.3s ease;
 }
 
-/* Hover Effect using Accent Color (#8B0000) */
-.nav-item a:hover{
-    color: #8B0000;
-    background-color: #b3b3b3;
+.nav-container p{
+    cursor: default;
+}
+
+/* Hover Effect */
+.nav-container a:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #F3F4F6;
+}
+
+/* Active Link */
+.nav-container a.active{
+    background-color: #7F1D1D;
+    color: #FFFFFF;
 }

@@ -1,29 +1,35 @@
-﻿/* Dropdown Container */
-.dropdown{
+﻿/* Style for the Setting hover effect with gear icon */
+.gear-icon{
+    display: inline-block;
+    font-size: 27px;
+    transition: transform 0.3s ease;
+    margin: 10px ;
+}
+
+.gear-dropdown{
     position: relative;
 }
 
-.dropdown p{
+.gear-dropdown p{
     cursor: pointer;
     color: #E5E7EB;
     text-decoration: none;
-    font-size: 18px;
     font-weight: 600;
-    padding: 10px 16px;
     border-radius: 8px;
-    transition: color 0.3s ease, background-color 0.3s ease;
+    margin: 5px;
+    padding: 10px;
+    transition: color 0.3s ease;
 }
 
-/* Dropdown Menu (Hidden by Default) */
-.dropdown-menu{
+.gear-dropdown-menu{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 
     position: absolute;
-    top: 100%;
-    left: -20%;
+    top: 80%;
+    left: -50%;
     background-color: #991B1B;
     border-radius: 12px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -36,29 +42,23 @@
     transform: translateY(-10px);
 }
 
-
-
-/* Dropdown Items */
-.dropdown-menu li{
+.gear-dropdown-menu li{
     padding: 8px 15px;
 }
 
-/* Hover Effect for Dropdown Links */
-.dropdown-menu li a{
+.gear-dropdown-menu li a{
     text-decoration: none;
     color: #E5E7EB;
     transition: all 0.3s ease;
 }
 
-.dropdown-menu li a:hover, .dropdown p:hover{
+.gear-dropdown-menu li a:hover{
     color: #F3F4F6;
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-/* Dropdown Visibility - Controlled by JS */
-.dropdown-menu.open{
+.gear-dropdown-menu.open{
     opacity: 1;
     pointer-events: auto;
     transform: translateY(0);
 }
-
