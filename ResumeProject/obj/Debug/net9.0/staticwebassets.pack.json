@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\CSS\\reset.css"
     },
     {
+      "Id": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\settings.css",
+      "PackagePath": "staticwebassets\\CSS\\settings.css"
+    },
+    {
       "Id": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\JScript\\script.js",
       "PackagePath": "staticwebassets\\JScript\\script.js"
     },
