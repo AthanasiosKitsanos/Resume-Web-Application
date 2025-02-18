@@ -16,7 +16,8 @@
         <link rel="stylesheet" href="~/CSS/layout.css" asp-append-version="true">
         <link rel="stylesheet" href="~/CSS/nav.css" asp-append-version="true">
         <link rel="stylesheet" href="~/CSS/dropdown.css" asp-append-version="true">
-        <link rel="stylesheet" href="~/CSS/buttons.css" asp-append-version="true">
+        <link rel="stylesheet" href="~/CSS/button.css" asp-append-version="true">
+        <link rel="stylesheet" href="~/CSS/settings.css" asp-append-version="true">
 
 
         @RenderSection("Styles", required: false) 
@@ -26,7 +27,7 @@
             <nav class="nav-container">
                 <ul class="nav-list">
 
-                    <li class="nav-item">
+                    <li>
                         <a href="/">Home</a>
                     </li>
                     @if(User.Identity is not null && User.Identity.IsAuthenticated)
@@ -35,36 +36,43 @@
                         var lastName = User.FindFirst("LastName")?.Value;
                         var fullName = (!string.IsNullOrEmpty(firstName) && !string.IsNullOrEmpty(lastName)) ? $"{firstName} {lastName}" : User.Identity.Name;
 
-                        <li class="nav-item">
+                        <li>
                             <p>
                                 @fullName
                             </p>
                         </li>
 
-                        <li class="nav-item">
-                            <a href="/Account/MyProfile">Profile</a>
-                        </li>
+                        <li class="gear-dropdown">
+                            <p>
+                                <span class="gear-icon">&#x2699</span>
+                            </p>
+                            <ul class="gear-dropdown-menu">    
+                                <li>
+                                    <a href="/Account/MyProfile">Profile</a>
+                                </li>
 
-                        <li class="nav-item">
-                            <a href="/Account/Update">Update Info</a>
-                        </li>
-                        
-                        <!-- Log Out Button -->
-                        <li class="button-align">
-                            <form method="post" asp-page="/Account/Logout">
-                                <button type="submit">Log Out</button> 
-                            </form>
-                        </li>
+                                <li>
+                                    <a href="/Account/Update">Update Info</a>
+                                </li>
+                            
+                                    <!-- Log Out Button -->
+                                <li class="button-align">
+                                        <form method="post" asp-page="/Account/Logout">
+                                            <button type="submit">Log Out</button> 
+                                        </form>
+                                </li>
 
-                        <li class="button-align">
-                            <form method="post" asp-page="/Account/Delete">
-                                <button type="submit" class="danger">Delete Account</button>
-                            </form>
+                                <li class="button-align">
+                                    <form method="post" asp-page="/Account/Delete">
+                                            <button type="submit" class="danger">Delete Account</button>
+                                     </form>
+                                </li>
+                            </ul>     
                         </li>
                     }
                     else
                     {
-                        <li class="nav-item dropdown">
+                        <li class="dropdown">
                             <p>Account</p>
 
                             <ul class="dropdown-menu">
