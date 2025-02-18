@@ -4,6 +4,7 @@ using ResumeProject.Models;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ResumeProject.Services;
 
@@ -19,12 +20,6 @@ public class UserInfoService
         _dbContext = dbContext;
         _signInManager = signInManager;
     }
-
-    // Returns the current user that is logged in information
-    // public async Task<ApplicationUser> GetLoggedInUserInfoAsync(ClaimsPrincipal principal)
-    // {
-    //     return await _userManager.GetUserAsync(principal);
-    // }
 
     public async Task<List<UserInfoDTO>> GetLoggedInUserInfoAsync()
     {
