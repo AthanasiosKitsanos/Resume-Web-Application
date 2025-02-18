@@ -4,30 +4,28 @@ using ResumeProject.Services;
 using ResumeProject.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace ResumeProject.Pages.Account
+namespace ResumeProject.Pages.Account;
+public class MyProfileModel : PageModel
 {
-    public class MyProfileModel : PageModel
+    private readonly UserInfoService _userInfoService;
+
+    public MyProfileModel(UserInfoService userInfoService)
     {
-        private readonly UserInfoService _userInfoService;
+        _userInfoService = userInfoService;
+    }
 
-        public MyProfileModel(UserInfoService userInfoService)
+    public List<UserInfoDTO>? UserInfo { get; set; }
+
+    public async Task<IActionResult> OnGetAsync()
+    {
+        // Fetch the logged-in user's information asychronously
+        UserInfo = await _userInfoService.GetLoggedInUserInfoAsync();
+
+        if (UserInfo is null || UserInfo.Count == 0)
         {
-            _userInfoService = userInfoService;
+            return NotFound();
         }
 
-        public List<UserInfoDTO>? UserInfo { get; set; }
-
-        public async Task<IActionResult> OnGetAsync()
-        {
-            // Fetch the logged-in user's information asychronously
-           UserInfo = await _userInfoService.GetLoggedInUserInfoAsync();
-
-           if(UserInfo is null || UserInfo.Count == 0)
-           {
-                return NotFound();
-           }
-
-           return Page();
-        }
+        return Page();
     }
 }
