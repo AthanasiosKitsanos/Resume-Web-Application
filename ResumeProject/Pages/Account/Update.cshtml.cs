@@ -43,7 +43,8 @@ namespace ResumeProject.Pages.Account
 
             if(result)
             {
-                return RedirectToPage("/Account/UpdateSuccess");
+                TempData["SuccessMessage"] = "Update was Successfull!";
+                return Page();
             }
             else
             {
