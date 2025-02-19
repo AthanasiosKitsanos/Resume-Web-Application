@@ -43,15 +43,19 @@ public class UserInfoService
     // This method will be called, only by the Admins
     public async Task<List<UserInfoDTO>> GetAllUserInfo()
     {
-        var userInfoList  = await _dbContext.Users.Select(u => new UserInfoDTO
-        {
-            FirstName = u.FirstName!,
-            LastName = u.LastName!,
-            Email = u.Email!,
-            PhoneNumber = u.PhoneNumber!,
-            Age = u.Age,
-            DateOfBirth = u.DateOfBirth
-        }).ToListAsync();
+        
+        var userInfoList = await _dbContext.Users.Join(_dbContext.UserRoles, user => user.Id, userRole => userRole.UserId, (user, userRole) => new {user, userRole})
+            .Join(_dbContext.Roles, userWithRole => userWithRole.userRole.RoleId, role => role.Id, (userWithRole, role) => new {userWithRole.user, role})
+            .Where(userWithRole => userWithRole.role.Name == "User")
+            .Select(u => new UserInfoDTO
+            {
+                FirstName = u.user.FirstName!,
+                LastName = u.user.LastName!,
+                Email = u.user.Email!,
+                PhoneNumber = u.user.PhoneNumber!,
+                Age = u.user.Age,
+                DateOfBirth = u.user.DateOfBirth
+            }).ToListAsync();
 
         return userInfoList;
     }
