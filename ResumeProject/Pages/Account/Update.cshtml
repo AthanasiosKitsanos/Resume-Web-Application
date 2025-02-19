@@ -4,6 +4,7 @@
 
 @{
     ViewData["Tilte"] = "Update";
+    var successMessage = TempData["SuccessMessage"] as string;
 }
 
 @section Styles
@@ -47,11 +48,18 @@
             </li>
 
             <li>
-                <button type="button" onclick="widnow.location.href='/Index'">Cancel</button>
+                <a asp-page="/Index">Cancel</a>
             </li>
         </ul>
     </div>
 </form>
+
+@if(!string.IsNullOrEmpty(successMessage))
+{
+    <div>
+        @successMessage
+    </div>
+}
 
 <div>
     @if (!ModelState.IsValid)

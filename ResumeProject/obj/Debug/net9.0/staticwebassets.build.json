@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dfWIWoQx8npDLOtTjiAZN+vvEojiQXRCKf0ZxSqY9Vo=",
+  "Hash": "nVCxCPqU5vr3JuAptmppZQ8jADSG8JErHPLRfK0l4Dg=",
   "Source": "ResumeProject",
   "BasePath": "_content/ResumeProject",
   "Mode": "Default",
@@ -59,12 +59,12 @@
       "OriginalItemSpec": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\nav.css"
     },
     {
-      "Identity": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\bn2mvh9rh7-hhdxbo2o5h.gz",
+      "Identity": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\bn2mvh9rh7-m0sv8gz1z8.gz",
       "SourceId": "ResumeProject",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ResumeProject",
-      "RelativePath": "CSS/reset#[.{fingerprint=hhdxbo2o5h}]?.css.gz",
+      "RelativePath": "CSS/reset#[.{fingerprint=m0sv8gz1z8}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -73,8 +73,8 @@
       "RelatedAsset": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\reset.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "jwhjl3sepp",
-      "Integrity": "nb09VSBiqPSvRGmq0xeetxtXrsx6LQYEE5vnbze7+Io=",
+      "Fingerprint": "ywq5adqglz",
+      "Integrity": "fqqUaih0fN3CMmlYyY+ft9Wd86LlRFieqoNeBTi89xE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\reset.css"
@@ -143,12 +143,12 @@
       "OriginalItemSpec": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\JScript\\script.js"
     },
     {
-      "Identity": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\u868rl2k7o-e2x9j1ittt.gz",
+      "Identity": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\u868rl2k7o-4xg35sii06.gz",
       "SourceId": "ResumeProject",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ResumeProject",
-      "RelativePath": "CSS/button#[.{fingerprint=e2x9j1ittt}]?.css.gz",
+      "RelativePath": "CSS/button#[.{fingerprint=4xg35sii06}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -157,8 +157,8 @@
       "RelatedAsset": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\button.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "sn44by6mu3",
-      "Integrity": "mINkwhutRgVVcgnFGF6jDkPDlgz7mJu83XZ5VgTlrmY=",
+      "Fingerprint": "rwtgmnvgw9",
+      "Integrity": "lYIQcyO0EyycooYc3gdEk5Jk6bwhRcGArKD1MbJYkvw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\button.css"
@@ -178,8 +178,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "e2x9j1ittt",
-      "Integrity": "pgb2/R9lZIFrAjLVxM9nfLmVTydaytfbK1VPPNoskE4=",
+      "Fingerprint": "4xg35sii06",
+      "Integrity": "mNK7PCpucQffwlxDEZ8ogAGl3arunVWuV4D3FVVyiNY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\CSS\\button.css"
@@ -262,8 +262,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "hhdxbo2o5h",
-      "Integrity": "e9JhJJQR4iy4qtWCoFAU2JY1yDTe1hLEehXVwaAJWLk=",
+      "Fingerprint": "m0sv8gz1z8",
+      "Integrity": "lleelM3UhFFe+v8xrqGRw9/TRppRZjQLKP9oPSnKFWI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\CSS\\reset.css"
@@ -313,13 +313,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "CSS/button.css",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\u868rl2k7o-e2x9j1ittt.gz",
+      "Route": "CSS/button.4xg35sii06.css",
+      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\u868rl2k7o-4xg35sii06.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002785515320"
+          "Quality": "0.002531645570"
         }
       ],
       "ResponseHeaders": [
@@ -329,19 +329,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "358"
+          "Value": "394"
         },
         {
           "Name": "ETag",
-          "Value": "\"mINkwhutRgVVcgnFGF6jDkPDlgz7mJu83XZ5VgTlrmY=\""
+          "Value": "\"lYIQcyO0EyycooYc3gdEk5Jk6bwhRcGArKD1MbJYkvw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Feb 2025 15:30:30 GMT"
+          "Value": "Wed, 19 Feb 2025 22:11:15 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -357,18 +357,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"pgb2/R9lZIFrAjLVxM9nfLmVTydaytfbK1VPPNoskE4=\""
+          "Value": "W/\"mNK7PCpucQffwlxDEZ8ogAGl3arunVWuV4D3FVVyiNY=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "4xg35sii06"
+        },
+        {
+          "Name": "label",
+          "Value": "CSS/button.css"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-pgb2/R9lZIFrAjLVxM9nfLmVTydaytfbK1VPPNoskE4="
+          "Value": "sha256-mNK7PCpucQffwlxDEZ8ogAGl3arunVWuV4D3FVVyiNY="
         }
       ]
     },
     {
-      "Route": "CSS/button.css",
+      "Route": "CSS/button.4xg35sii06.css",
       "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\button.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -378,7 +386,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "688"
+          "Value": "826"
         },
         {
           "Name": "Content-Type",
@@ -386,121 +394,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pgb2/R9lZIFrAjLVxM9nfLmVTydaytfbK1VPPNoskE4=\""
+          "Value": "\"mNK7PCpucQffwlxDEZ8ogAGl3arunVWuV4D3FVVyiNY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Feb 2025 15:30:30 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-pgb2/R9lZIFrAjLVxM9nfLmVTydaytfbK1VPPNoskE4="
-        }
-      ]
-    },
-    {
-      "Route": "CSS/button.css.gz",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\u868rl2k7o-e2x9j1ittt.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "358"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"mINkwhutRgVVcgnFGF6jDkPDlgz7mJu83XZ5VgTlrmY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 18 Feb 2025 15:30:30 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-mINkwhutRgVVcgnFGF6jDkPDlgz7mJu83XZ5VgTlrmY="
-        }
-      ]
-    },
-    {
-      "Route": "CSS/button.e2x9j1ittt.css",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\u868rl2k7o-e2x9j1ittt.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.002785515320"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "358"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"mINkwhutRgVVcgnFGF6jDkPDlgz7mJu83XZ5VgTlrmY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 18 Feb 2025 15:30:30 GMT"
+          "Value": "Wed, 19 Feb 2025 22:11:15 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"pgb2/R9lZIFrAjLVxM9nfLmVTydaytfbK1VPPNoskE4=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "e2x9j1ittt"
+          "Value": "4xg35sii06"
         },
         {
           "Name": "label",
@@ -508,13 +416,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-pgb2/R9lZIFrAjLVxM9nfLmVTydaytfbK1VPPNoskE4="
+          "Value": "sha256-mNK7PCpucQffwlxDEZ8ogAGl3arunVWuV4D3FVVyiNY="
         }
       ]
     },
     {
-      "Route": "CSS/button.e2x9j1ittt.css",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\button.css",
+      "Route": "CSS/button.4xg35sii06.css.gz",
+      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\u868rl2k7o-4xg35sii06.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -523,7 +431,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "688"
+          "Value": "394"
         },
         {
           "Name": "Content-Type",
@@ -531,56 +439,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pgb2/R9lZIFrAjLVxM9nfLmVTydaytfbK1VPPNoskE4=\""
+          "Value": "\"lYIQcyO0EyycooYc3gdEk5Jk6bwhRcGArKD1MbJYkvw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Feb 2025 15:30:30 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "e2x9j1ittt"
-        },
-        {
-          "Name": "label",
-          "Value": "CSS/button.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-pgb2/R9lZIFrAjLVxM9nfLmVTydaytfbK1VPPNoskE4="
-        }
-      ]
-    },
-    {
-      "Route": "CSS/button.e2x9j1ittt.css.gz",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\u868rl2k7o-e2x9j1ittt.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "358"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"mINkwhutRgVVcgnFGF6jDkPDlgz7mJu83XZ5VgTlrmY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 18 Feb 2025 15:30:30 GMT"
+          "Value": "Wed, 19 Feb 2025 22:11:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -598,7 +461,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "e2x9j1ittt"
+          "Value": "4xg35sii06"
         },
         {
           "Name": "label",
@@ -606,7 +469,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-mINkwhutRgVVcgnFGF6jDkPDlgz7mJu83XZ5VgTlrmY="
+          "Value": "sha256-lYIQcyO0EyycooYc3gdEk5Jk6bwhRcGArKD1MbJYkvw="
+        }
+      ]
+    },
+    {
+      "Route": "CSS/button.css",
+      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\u868rl2k7o-4xg35sii06.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002531645570"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "394"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lYIQcyO0EyycooYc3gdEk5Jk6bwhRcGArKD1MbJYkvw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 22:11:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"mNK7PCpucQffwlxDEZ8ogAGl3arunVWuV4D3FVVyiNY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mNK7PCpucQffwlxDEZ8ogAGl3arunVWuV4D3FVVyiNY="
+        }
+      ]
+    },
+    {
+      "Route": "CSS/button.css",
+      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\button.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "826"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mNK7PCpucQffwlxDEZ8ogAGl3arunVWuV4D3FVVyiNY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 22:11:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mNK7PCpucQffwlxDEZ8ogAGl3arunVWuV4D3FVVyiNY="
+        }
+      ]
+    },
+    {
+      "Route": "CSS/button.css.gz",
+      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\u868rl2k7o-4xg35sii06.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "394"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lYIQcyO0EyycooYc3gdEk5Jk6bwhRcGArKD1MbJYkvw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 22:11:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lYIQcyO0EyycooYc3gdEk5Jk6bwhRcGArKD1MbJYkvw="
         }
       ]
     },
@@ -933,7 +933,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Feb 2025 20:24:14 GMT"
+          "Value": "Wed, 19 Feb 2025 21:00:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -986,7 +986,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Feb 2025 20:24:14 GMT"
+          "Value": "Wed, 19 Feb 2025 21:00:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1023,7 +1023,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Feb 2025 20:24:14 GMT"
+          "Value": "Wed, 19 Feb 2025 21:00:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1070,7 +1070,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Feb 2025 20:24:14 GMT"
+          "Value": "Wed, 19 Feb 2025 21:00:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1131,7 +1131,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Feb 2025 20:24:14 GMT"
+          "Value": "Wed, 19 Feb 2025 21:00:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1176,7 +1176,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Feb 2025 20:24:14 GMT"
+          "Value": "Wed, 19 Feb 2025 21:00:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1506,12 +1506,12 @@
     },
     {
       "Route": "CSS/reset.css",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\bn2mvh9rh7-hhdxbo2o5h.gz",
+      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\bn2mvh9rh7-m0sv8gz1z8.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.010752688172"
+          "Quality": "0.009433962264"
         }
       ],
       "ResponseHeaders": [
@@ -1521,15 +1521,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "92"
+          "Value": "105"
         },
         {
           "Name": "ETag",
-          "Value": "\"nb09VSBiqPSvRGmq0xeetxtXrsx6LQYEE5vnbze7+Io=\""
+          "Value": "\"fqqUaih0fN3CMmlYyY+ft9Wd86LlRFieqoNeBTi89xE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Feb 2025 20:32:45 GMT"
+          "Value": "Wed, 19 Feb 2025 18:37:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1549,13 +1549,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"e9JhJJQR4iy4qtWCoFAU2JY1yDTe1hLEehXVwaAJWLk=\""
+          "Value": "W/\"lleelM3UhFFe+v8xrqGRw9/TRppRZjQLKP9oPSnKFWI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-e9JhJJQR4iy4qtWCoFAU2JY1yDTe1hLEehXVwaAJWLk="
+          "Value": "sha256-lleelM3UhFFe+v8xrqGRw9/TRppRZjQLKP9oPSnKFWI="
         }
       ]
     },
@@ -1570,7 +1570,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "87"
+          "Value": "113"
         },
         {
           "Name": "Content-Type",
@@ -1578,11 +1578,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"e9JhJJQR4iy4qtWCoFAU2JY1yDTe1hLEehXVwaAJWLk=\""
+          "Value": "\"lleelM3UhFFe+v8xrqGRw9/TRppRZjQLKP9oPSnKFWI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Feb 2025 20:32:45 GMT"
+          "Value": "Wed, 19 Feb 2025 18:37:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1592,13 +1592,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-e9JhJJQR4iy4qtWCoFAU2JY1yDTe1hLEehXVwaAJWLk="
+          "Value": "sha256-lleelM3UhFFe+v8xrqGRw9/TRppRZjQLKP9oPSnKFWI="
         }
       ]
     },
     {
       "Route": "CSS/reset.css.gz",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\bn2mvh9rh7-hhdxbo2o5h.gz",
+      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\bn2mvh9rh7-m0sv8gz1z8.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1607,7 +1607,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "92"
+          "Value": "105"
         },
         {
           "Name": "Content-Type",
@@ -1615,11 +1615,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"nb09VSBiqPSvRGmq0xeetxtXrsx6LQYEE5vnbze7+Io=\""
+          "Value": "\"fqqUaih0fN3CMmlYyY+ft9Wd86LlRFieqoNeBTi89xE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Feb 2025 20:32:45 GMT"
+          "Value": "Wed, 19 Feb 2025 18:37:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1637,18 +1637,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-nb09VSBiqPSvRGmq0xeetxtXrsx6LQYEE5vnbze7+Io="
+          "Value": "sha256-fqqUaih0fN3CMmlYyY+ft9Wd86LlRFieqoNeBTi89xE="
         }
       ]
     },
     {
-      "Route": "CSS/reset.hhdxbo2o5h.css",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\bn2mvh9rh7-hhdxbo2o5h.gz",
+      "Route": "CSS/reset.m0sv8gz1z8.css",
+      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\bn2mvh9rh7-m0sv8gz1z8.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.010752688172"
+          "Quality": "0.009433962264"
         }
       ],
       "ResponseHeaders": [
@@ -1658,15 +1658,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "92"
+          "Value": "105"
         },
         {
           "Name": "ETag",
-          "Value": "\"nb09VSBiqPSvRGmq0xeetxtXrsx6LQYEE5vnbze7+Io=\""
+          "Value": "\"fqqUaih0fN3CMmlYyY+ft9Wd86LlRFieqoNeBTi89xE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Feb 2025 20:32:45 GMT"
+          "Value": "Wed, 19 Feb 2025 18:37:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1686,13 +1686,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"e9JhJJQR4iy4qtWCoFAU2JY1yDTe1hLEehXVwaAJWLk=\""
+          "Value": "W/\"lleelM3UhFFe+v8xrqGRw9/TRppRZjQLKP9oPSnKFWI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "hhdxbo2o5h"
+          "Value": "m0sv8gz1z8"
         },
         {
           "Name": "label",
@@ -1700,12 +1700,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-e9JhJJQR4iy4qtWCoFAU2JY1yDTe1hLEehXVwaAJWLk="
+          "Value": "sha256-lleelM3UhFFe+v8xrqGRw9/TRppRZjQLKP9oPSnKFWI="
         }
       ]
     },
     {
-      "Route": "CSS/reset.hhdxbo2o5h.css",
+      "Route": "CSS/reset.m0sv8gz1z8.css",
       "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\reset.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1715,7 +1715,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "87"
+          "Value": "113"
         },
         {
           "Name": "Content-Type",
@@ -1723,11 +1723,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"e9JhJJQR4iy4qtWCoFAU2JY1yDTe1hLEehXVwaAJWLk=\""
+          "Value": "\"lleelM3UhFFe+v8xrqGRw9/TRppRZjQLKP9oPSnKFWI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Feb 2025 20:32:45 GMT"
+          "Value": "Wed, 19 Feb 2025 18:37:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1737,7 +1737,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "hhdxbo2o5h"
+          "Value": "m0sv8gz1z8"
         },
         {
           "Name": "label",
@@ -1745,13 +1745,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-e9JhJJQR4iy4qtWCoFAU2JY1yDTe1hLEehXVwaAJWLk="
+          "Value": "sha256-lleelM3UhFFe+v8xrqGRw9/TRppRZjQLKP9oPSnKFWI="
         }
       ]
     },
     {
-      "Route": "CSS/reset.hhdxbo2o5h.css.gz",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\bn2mvh9rh7-hhdxbo2o5h.gz",
+      "Route": "CSS/reset.m0sv8gz1z8.css.gz",
+      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\bn2mvh9rh7-m0sv8gz1z8.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1760,7 +1760,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "92"
+          "Value": "105"
         },
         {
           "Name": "Content-Type",
@@ -1768,11 +1768,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"nb09VSBiqPSvRGmq0xeetxtXrsx6LQYEE5vnbze7+Io=\""
+          "Value": "\"fqqUaih0fN3CMmlYyY+ft9Wd86LlRFieqoNeBTi89xE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Feb 2025 20:32:45 GMT"
+          "Value": "Wed, 19 Feb 2025 18:37:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1790,7 +1790,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "hhdxbo2o5h"
+          "Value": "m0sv8gz1z8"
         },
         {
           "Name": "label",
@@ -1798,7 +1798,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-nb09VSBiqPSvRGmq0xeetxtXrsx6LQYEE5vnbze7+Io="
+          "Value": "sha256-fqqUaih0fN3CMmlYyY+ft9Wd86LlRFieqoNeBTi89xE="
         }
       ]
     },
@@ -1827,7 +1827,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Feb 2025 18:18:38 GMT"
+          "Value": "Wed, 19 Feb 2025 21:39:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1880,7 +1880,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Feb 2025 18:18:38 GMT"
+          "Value": "Wed, 19 Feb 2025 21:39:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1917,7 +1917,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Feb 2025 18:18:38 GMT"
+          "Value": "Wed, 19 Feb 2025 21:39:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1964,7 +1964,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Feb 2025 18:18:38 GMT"
+          "Value": "Wed, 19 Feb 2025 21:39:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2025,7 +2025,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Feb 2025 18:18:38 GMT"
+          "Value": "Wed, 19 Feb 2025 21:39:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2070,7 +2070,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Feb 2025 18:18:38 GMT"
+          "Value": "Wed, 19 Feb 2025 21:39:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2125,7 +2125,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Feb 2025 18:17:24 GMT"
+          "Value": "Wed, 19 Feb 2025 21:38:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2178,7 +2178,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Feb 2025 18:17:24 GMT"
+          "Value": "Wed, 19 Feb 2025 21:38:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2215,7 +2215,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Feb 2025 18:17:24 GMT"
+          "Value": "Wed, 19 Feb 2025 21:38:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2262,7 +2262,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Feb 2025 18:17:24 GMT"
+          "Value": "Wed, 19 Feb 2025 21:38:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2323,7 +2323,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Feb 2025 18:17:24 GMT"
+          "Value": "Wed, 19 Feb 2025 21:38:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2368,7 +2368,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Feb 2025 18:17:24 GMT"
+          "Value": "Wed, 19 Feb 2025 21:38:03 GMT"
         },
         {
           "Name": "Cache-Control",
