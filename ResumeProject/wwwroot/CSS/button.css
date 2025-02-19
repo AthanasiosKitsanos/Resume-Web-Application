@@ -1,5 +1,5 @@
 ﻿/* General Button Styling */
-.button-align button{
+.button-align button, .button-align a{
     font-weight: 200;
     background-color: #991B1B;
     color: #E5E7EB; /* Accent Color */
@@ -13,8 +13,16 @@
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+.button-align a{
+    text-decoration: none;
+}
+
+.button-align ul{
+    list-style: none;
+}
+
 /* Button hover Effect */
-.button-align button:hover{
+.button-align button:hover, .button-align a:hover{
     background-color: rgba(255, 255, 255, 0.1);
     color: #F3F4F6;
 }
