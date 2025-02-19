@@ -41,11 +41,21 @@
                                 @fullName
                             </p>
                         </li>
-
+                        
+                        <li>
+                            @if(User.IsInRole("Admin"))
+                            {
+                                <li>
+                                    <a href="/Account/GetAllUsers">All Users</a>
+                                </li>
+                            }
+                        </li>
+                        
                         <li class="gear-dropdown">
                             <p>
                                 <span class="gear-icon">&#x2699</span>
                             </p>
+
                             <ul class="gear-dropdown-menu">    
                                 <li>
                                     <a href="/Account/MyProfile">Profile</a>
