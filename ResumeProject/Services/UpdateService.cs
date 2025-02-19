@@ -24,11 +24,26 @@ public class UpdateService
             return false;
         }
 
-        user.FirstName = input.FirstName;
-        user.LastName = input.LastName;
-        user.Email = input.Email;
-        user.UserName = input.Email;
-        user.PhoneNumber = input.PhoneNumber;
+        if(!string.IsNullOrEmpty(input.Email))
+        {
+            user.Email = input.Email;
+            user.UserName = input.Email;
+        }
+
+        if(!string.IsNullOrEmpty(input.FirstName))
+        {
+            user.FirstName = input.FirstName;
+        }
+
+        if(!string.IsNullOrEmpty(input.LastName))
+        {
+            user.LastName = input.LastName;
+        }
+
+        if(!string.IsNullOrEmpty(input.PhoneNumber))
+        {
+            user.PhoneNumber = input.PhoneNumber;
+        }
 
         var result = await _userManager.UpdateAsync(user);
         if(result.Succeeded)
