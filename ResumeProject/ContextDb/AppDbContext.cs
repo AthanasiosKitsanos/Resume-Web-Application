@@ -11,6 +11,9 @@ public class AppDbContext: IdentityDbContext<ApplicationUser> // IdentityDbConte
 
     }
 
+    public DbSet<Comment> Comments { get; set; }
+    public DbSet<UserComment> UserComment { get; set;}
+
     protected override void OnModelCreating(ModelBuilder builder)
     {
         base.OnModelCreating(builder);
