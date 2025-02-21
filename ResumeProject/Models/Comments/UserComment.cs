@@ -10,16 +10,16 @@ namespace ResumeProject.Models
 
         // Foreign key to ApplicationUser
         [Required]
-        public string UserId { get; set; }
+        public string UserId { get; set; } =string.Empty;
 
         [ForeignKey(nameof(UserId))]
-        public ApplicationUser User { get; set; }
+        public ApplicationUser User { get; set; } = null!;
 
         // Foreign key to Comment
         [Required]
-        public string CommentId { get; set; }
+        public string CommentId { get; set; } = string.Empty;
 
         [ForeignKey(nameof(CommentId))]
-        public Comment Comment { get; set; }
+        public Comment Comment { get; set; } = null!;
     }
 }
