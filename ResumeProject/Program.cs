@@ -40,6 +40,7 @@ class Program
         builder.Services.AddScoped<RegisterService>();
         builder.Services.AddScoped<UpdateService>();
         builder.Services.AddScoped<UserInfoService>();
+        builder.Services.AddScoped<CommentsService>();
         
         var app = builder.Build();
 
