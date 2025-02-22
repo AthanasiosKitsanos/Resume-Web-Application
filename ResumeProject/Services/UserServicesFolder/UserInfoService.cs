@@ -41,7 +41,7 @@ public class UserInfoService
 
     // returns Information about all users
     // This method will be called, only by the Admins
-    public async Task<List<UserInfoDTO>> GetAllUserInfo()
+    public async Task<List<UserInfoDTO>> GetAllUsersWithRoleUserAsync()
     {
         
         var userInfoList = await _dbContext.Users.Join(_dbContext.UserRoles, user => user.Id, userRole => userRole.UserId, (user, userRole) => new {user, userRole})

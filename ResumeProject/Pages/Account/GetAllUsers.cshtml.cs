@@ -22,7 +22,7 @@ public class GetAllUsersModel : PageModel
     public async Task<IActionResult> OnGetAsync()
     {
         // Fetch the logged-in user's information asychronously
-        AllUsersList = await _userInfoService.GetAllUserInfo();
+        AllUsersList = await _userInfoService.GetAllUsersWithRoleUserAsync();
 
         if (AllUsersList is null || AllUsersList.Count == 0)
         {
