@@ -2,6 +2,7 @@ using System;
 using ResumeProject.ContextDb;
 using ResumeProject.Models;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 
 namespace ResumeProject.Services;
 
@@ -48,11 +49,15 @@ public class CommentsService
         return true;
     }
 
-    // public async Task<List<Comment>> GetAllCommentsAsync()
-    // {
-    //     var userId = _userManager.GetUserId(_signInManager.Context.User);
-
-    //     return await _dbcontext.Comments.Join(_dbcontext.UserComment, user => user.ApplicationUserId, userComment => userComment.UserId, (user, userComment) => new { user, userComment})
-    //                                     .Join(_dbcontext.Users, userWithComment => userWithComment.userComment.CommentId, );
-    // }
+    public async Task<List<CommentDTO>> GetAllCommentsAsync()
+    {
+        return await _dbcontext.Comments.Include(c => c.User)
+                .Select(c => new CommentDTO
+                {
+                    Text = c.CommentText,
+                    FirstName = c.User.FirstName!,
+                    LastName = c.User.LastName!,
+                    CreatedAt = c.CreatedAt
+                }).ToListAsync();
+    }
 }
