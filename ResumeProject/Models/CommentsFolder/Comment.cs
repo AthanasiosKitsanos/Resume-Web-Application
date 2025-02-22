@@ -20,6 +20,6 @@ namespace ResumeProject.Models
 
         // Navigation property to the ApplicationUser
         [ForeignKey(nameof(UserId))]
-        public ApplicationUser? User { get; set; }
+        public ApplicationUser User { get; set; } = null!;
     }
 }
