@@ -18,7 +18,7 @@ public class CommentsService
         _userManager = userManager;
     }
 
-    public async Task<bool> AddCommentsAsync(string newComment)
+    public async Task<bool> CreateCommentsAsync(string newComment)
     {
         var userId = _userManager.GetUserId(_signInManager.Context.User);
 
@@ -29,7 +29,8 @@ public class CommentsService
 
         var comment = new Comment
         {
-            CommentText = newComment
+            CommentText = newComment,
+            UserId = userId
         };
 
         _dbcontext.Comments.Add(comment);
@@ -38,7 +39,7 @@ public class CommentsService
         var userComment = new UserComment
         {
             UserId = userId,
-            CommentId = comment.CommentId
+            CommentId = comment.Id
         };
 
         _dbcontext.UserComment.Add(userComment);
@@ -46,4 +47,12 @@ public class CommentsService
 
         return true;
     }
+
+    // public async Task<List<Comment>> GetAllCommentsAsync()
+    // {
+    //     var userId = _userManager.GetUserId(_signInManager.Context.User);
+
+    //     return await _dbcontext.Comments.Join(_dbcontext.UserComment, user => user.ApplicationUserId, userComment => userComment.UserId, (user, userComment) => new { user, userComment})
+    //                                     .Join(_dbcontext.Users, userWithComment => userWithComment.userComment.CommentId, );
+    // }
 }

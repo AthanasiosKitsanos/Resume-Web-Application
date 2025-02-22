@@ -7,7 +7,7 @@ namespace ResumeProject.Models
     public class Comment
     {
         [Key]
-        public string CommentId { get; set; } = Guid.NewGuid().ToString(); // Primary key
+        public string Id { get; set; } = Guid.NewGuid().ToString(); // Primary key
 
         [Required]
         public string CommentText { get; set; } = string.Empty;  // The comment content
@@ -16,10 +16,10 @@ namespace ResumeProject.Models
 
         // Foreign key to ApplicationUser
         [Required]
-        public string? ApplicationUserId { get; set; }
+        public string? UserId { get; set; }
 
         // Navigation property to the ApplicationUser
-        [ForeignKey(nameof(ApplicationUserId))]
+        [ForeignKey(nameof(UserId))]
         public ApplicationUser? User { get; set; }
     }
 }
