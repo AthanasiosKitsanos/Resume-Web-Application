@@ -9,6 +9,7 @@ using ResumeProject.Services;
 using ResumeProject.Data;
 using ResumeProject.Settings;
 using Microsoft.Extensions.Options;
+using ResumeProject.Pages.Comments;
 
 namespace ResumeProject;
 
@@ -40,7 +41,8 @@ class Program
         builder.Services.AddScoped<RegisterService>();
         builder.Services.AddScoped<UpdateService>();
         builder.Services.AddScoped<UserInfoService>();
-        builder.Services.AddScoped<CommentsService>();
+        builder.Services.AddScoped<CreateCommentsService>();
+        builder.Services.AddScoped<GetCommentsService>();
         
         var app = builder.Build();
 
