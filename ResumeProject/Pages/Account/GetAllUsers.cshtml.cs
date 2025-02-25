@@ -17,7 +17,7 @@ public class GetAllUsersModel : PageModel
         _userInfoService = userInfoService;
     }
 
-    public List<UserInfoDTO>? AllUsersList { get; set; }
+    public List<UserInfoDTO> AllUsersList { get; set; } = new List<UserInfoDTO>();
 
     public async Task<IActionResult> OnGetAsync()
     {
