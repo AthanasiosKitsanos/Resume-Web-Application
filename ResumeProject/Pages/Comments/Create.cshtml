@@ -1,0 +1,34 @@
+﻿@page
+@addTagHelper*, Microsoft.AspNetCore.Mvc.TagHelpers
+@model ResumeProject.Pages.Comments.CreateModel
+
+@{
+    ViewData["Title"] = "Create Comment";
+}
+
+@section Styles
+{
+    <link rel="stylesheet" href="~/CSS/buttonClass.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/CSS/formClass.css" asp-append-version="true">
+}
+
+
+
+<form method="post" class="center-form">
+    <div>
+        <label>Comment</label>
+        <input type="text" asp-for="Input.Text" />
+    </div>
+
+    <div class="button-align">
+        <ul>
+            <li>
+                <button type="submit">Submit</button>
+            </li>
+
+            <li>
+                <a href="/Comments/GetAllComments">Cancel</a>
+            </li>
+        </ul>
+    </div>
+</form>
