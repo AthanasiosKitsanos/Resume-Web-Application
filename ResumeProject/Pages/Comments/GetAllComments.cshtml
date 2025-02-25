@@ -1,0 +1,35 @@
+﻿@page
+@using System.Globalization
+@model ResumeProject.Pages.Comments.GetAllCommentsModel
+@{
+    ViewData["Title"] = "Comments";
+}
+
+
+<h2>Comments</h2>
+
+@if(Model.AllComments is not null)
+{
+    foreach(var comment in Model.AllComments)
+    {
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <td>@comment.FirstName @comment.LastName</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>@comment.Text</td>
+                        <td>@comment.CreatedAt.ToString("dd-MM-yyyy HH:mm:ss", CultureInfo.InvariantCulture)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    }
+}
+else
+{
+    <p>No Comments posted yet</p>
+}
