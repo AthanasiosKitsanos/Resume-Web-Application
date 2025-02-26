@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nVCxCPqU5vr3JuAptmppZQ8jADSG8JErHPLRfK0l4Dg=",
+  "Hash": "SBiyK52fRRY07c5UEpDI54YqBo6veEFvEVH9MbtHUcs=",
   "Source": "ResumeProject",
   "BasePath": "_content/ResumeProject",
   "Mode": "Default",
@@ -57,6 +57,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\nav.css"
+    },
+    {
+      "Identity": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\6iwtc64219-xysyg1t3pj.gz",
+      "SourceId": "ResumeProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/ResumeProject",
+      "RelativePath": "CSS/comments#[.{fingerprint=xysyg1t3pj}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\comments.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "w5ntppdm1k",
+      "Integrity": "hCfOGhyV7+gHSgvVdRYJkK10XSxckaT1xU96e/6bkmE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\comments.css"
     },
     {
       "Identity": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\bn2mvh9rh7-m0sv8gz1z8.gz",
@@ -183,6 +204,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\CSS\\button.css"
+    },
+    {
+      "Identity": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\comments.css",
+      "SourceId": "ResumeProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\",
+      "BasePath": "_content/ResumeProject",
+      "RelativePath": "CSS/comments#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xysyg1t3pj",
+      "Integrity": "KQvy14Y4i25FktSVRZzdlIa5kDTyB4IVU2jSTJ8GfYE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CSS\\comments.css"
     },
     {
       "Identity": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\dropdown.css",
@@ -607,6 +649,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-lYIQcyO0EyycooYc3gdEk5Jk6bwhRcGArKD1MbJYkvw="
+        }
+      ]
+    },
+    {
+      "Route": "CSS/comments.css",
+      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\6iwtc64219-xysyg1t3pj.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003906250000"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "255"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hCfOGhyV7+gHSgvVdRYJkK10XSxckaT1xU96e/6bkmE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 19:11:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"KQvy14Y4i25FktSVRZzdlIa5kDTyB4IVU2jSTJ8GfYE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KQvy14Y4i25FktSVRZzdlIa5kDTyB4IVU2jSTJ8GfYE="
+        }
+      ]
+    },
+    {
+      "Route": "CSS/comments.css",
+      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\comments.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "517"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KQvy14Y4i25FktSVRZzdlIa5kDTyB4IVU2jSTJ8GfYE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 19:11:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KQvy14Y4i25FktSVRZzdlIa5kDTyB4IVU2jSTJ8GfYE="
+        }
+      ]
+    },
+    {
+      "Route": "CSS/comments.css.gz",
+      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\6iwtc64219-xysyg1t3pj.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "255"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hCfOGhyV7+gHSgvVdRYJkK10XSxckaT1xU96e/6bkmE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 19:11:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hCfOGhyV7+gHSgvVdRYJkK10XSxckaT1xU96e/6bkmE="
+        }
+      ]
+    },
+    {
+      "Route": "CSS/comments.xysyg1t3pj.css",
+      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\6iwtc64219-xysyg1t3pj.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003906250000"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "255"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hCfOGhyV7+gHSgvVdRYJkK10XSxckaT1xU96e/6bkmE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 19:11:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"KQvy14Y4i25FktSVRZzdlIa5kDTyB4IVU2jSTJ8GfYE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xysyg1t3pj"
+        },
+        {
+          "Name": "label",
+          "Value": "CSS/comments.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KQvy14Y4i25FktSVRZzdlIa5kDTyB4IVU2jSTJ8GfYE="
+        }
+      ]
+    },
+    {
+      "Route": "CSS/comments.xysyg1t3pj.css",
+      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\comments.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "517"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KQvy14Y4i25FktSVRZzdlIa5kDTyB4IVU2jSTJ8GfYE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 19:11:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xysyg1t3pj"
+        },
+        {
+          "Name": "label",
+          "Value": "CSS/comments.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KQvy14Y4i25FktSVRZzdlIa5kDTyB4IVU2jSTJ8GfYE="
+        }
+      ]
+    },
+    {
+      "Route": "CSS/comments.xysyg1t3pj.css.gz",
+      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\6iwtc64219-xysyg1t3pj.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "255"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hCfOGhyV7+gHSgvVdRYJkK10XSxckaT1xU96e/6bkmE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 19:11:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xysyg1t3pj"
+        },
+        {
+          "Name": "label",
+          "Value": "CSS/comments.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hCfOGhyV7+gHSgvVdRYJkK10XSxckaT1xU96e/6bkmE="
         }
       ]
     },

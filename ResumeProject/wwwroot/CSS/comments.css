@@ -1,0 +1,34 @@
+﻿.comments-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #991B1B;
+    padding-left: 0px;
+}
+
+.comments-container ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.comments-container ul li{
+    border-radius: 8px;
+}
+
+.white-background{
+    background-color: white;
+}
+
+.white-font{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.black-font{
+    color: black;
+    font-size: 18px;
+}
+
+.center-font{
+}

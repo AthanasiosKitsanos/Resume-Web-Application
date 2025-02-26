@@ -12,6 +12,18 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-mNK7PCpucQffwlxDEZ8ogAGl3arunVWuV4D3FVVyiNY="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"826"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022mNK7PCpucQffwlxDEZ8ogAGl3arunVWuV4D3FVVyiNY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 19 Feb 2025 22:11:15 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ResumeProject/CSS/comments.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\CSS\comments.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-KQvy14Y4i25FktSVRZzdlIa5kDTyB4IVU2jSTJ8GfYE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"517"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022KQvy14Y4i25FktSVRZzdlIa5kDTyB4IVU2jSTJ8GfYE=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Feb 2025 19:11:59 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ResumeProject/CSS/comments.xysyg1t3pj.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\CSS\comments.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xysyg1t3pj"},{"Name":"integrity","Value":"sha256-KQvy14Y4i25FktSVRZzdlIa5kDTyB4IVU2jSTJ8GfYE="},{"Name":"label","Value":"_content/ResumeProject/CSS/comments.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"517"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022KQvy14Y4i25FktSVRZzdlIa5kDTyB4IVU2jSTJ8GfYE=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Feb 2025 19:11:59 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ResumeProject/CSS/dropdown.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\CSS\dropdown.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

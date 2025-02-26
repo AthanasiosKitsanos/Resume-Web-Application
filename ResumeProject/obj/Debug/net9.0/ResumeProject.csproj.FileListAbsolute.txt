@@ -174,3 +174,4 @@ c:\Users\PC\source\repos\Portofolio\ResumeWebApp\ResumeProject\obj\Debug\net9.0\
 c:\Users\PC\source\repos\Portofolio\ResumeWebApp\ResumeProject\obj\Debug\net9.0\compressed\kb03a262xt-k9veecv8h3.gz
 c:\Users\PC\source\repos\Portofolio\ResumeWebApp\ResumeProject\obj\Debug\net9.0\compressed\fvthxdpqdu-lrg3lttkdo.gz
 c:\Users\PC\source\repos\Portofolio\ResumeWebApp\ResumeProject\obj\Debug\net9.0\compressed\u868rl2k7o-4xg35sii06.gz
+c:\Users\PC\source\repos\Portofolio\ResumeWebApp\ResumeProject\obj\Debug\net9.0\compressed\6iwtc64219-xysyg1t3pj.gz

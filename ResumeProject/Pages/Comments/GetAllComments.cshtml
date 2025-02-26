@@ -5,29 +5,34 @@
     ViewData["Title"] = "Comments";
 }
 
+@section Styles
+{
+    <link rel="stylesheet" href="~/CSS/comments.css" asp-append-version="true">
+}
+
 
 <h2>Comments</h2>
 
 @if(Model.AllComments is not null)
 {
-    foreach(var comment in Model.AllComments)
-    {
-        <div>
-            <table>
-                <thead>
-                    <tr>
-                        <td>@comment.FirstName @comment.LastName</td>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>@comment.Text</td>
-                        <td>@comment.CreatedAt.ToString("dd-MM-yyyy HH:mm:ss", CultureInfo.InvariantCulture)</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    }
+    <div class="comments-container">
+        @foreach(var comment in Model.AllComments)
+        {
+            <ul>
+                <li class="white-font">
+                    @comment.FirstName @comment.LastName
+                </li>
+
+                <li class="white-background black-font center-font">
+                    @comment.Text
+                </li>
+
+                <li class="white-font">
+                    @comment.CreatedAt.ToString("dd-MM-yyyy HH:mm:ss")
+                </li>
+            </ul>
+        }
+    </div>
 }
 else
 {
