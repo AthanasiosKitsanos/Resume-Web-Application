@@ -10,6 +10,7 @@ using ResumeProject.Data;
 using ResumeProject.Settings;
 using Microsoft.Extensions.Options;
 using ResumeProject.Pages.Comments;
+using ResumeProject.Extention;
 
 namespace ResumeProject;
 
@@ -20,7 +21,7 @@ class Program
         var builder = WebApplication.CreateBuilder(args);
         
         // Add services to the containers
-        builder.Services.AddRazorPages(); // To use Razor pages // To use controllers
+        builder.Services.AddRazorPages(); // To use Razor pages
 
         // Add Identity and configure JWT authentication
         builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlite("Data Source=ResumeProject.db"));
@@ -35,15 +36,8 @@ class Program
             options.SlidingExpiration = true;
         });
         
-        builder.Services.AddScoped<LogInService>();
-        builder.Services.AddScoped<DeleteService>();
-        builder.Services.AddScoped<LogOutService>();
-        builder.Services.AddScoped<RegisterService>();
-        builder.Services.AddScoped<UpdateService>();
-        builder.Services.AddScoped<UserInfoService>();
-        builder.Services.AddScoped<CreateCommentsService>();
-        builder.Services.AddScoped<GetCommentsService>();
-        
+        builder.Services.AddCustomServices();
+
         var app = builder.Build();
 
         if(!app.Environment.IsDevelopment())
