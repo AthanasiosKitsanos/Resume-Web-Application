@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SBiyK52fRRY07c5UEpDI54YqBo6veEFvEVH9MbtHUcs=",
+  "Hash": "Lrfuj6wbYglUHd1MOINXqC2NWy+6L05QMF3pidBr95E=",
   "Source": "ResumeProject",
   "BasePath": "_content/ResumeProject",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "ResumeProject\\wwwroot",
       "Source": "ResumeProject",
-      "ContentRoot": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\",
       "BasePath": "_content/ResumeProject",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\0v13jbvrg6-smdylv69dj.gz",
+      "Identity": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\0v13jbvrg6-smdylv69dj.gz",
       "SourceId": "ResumeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ResumeProject",
       "RelativePath": "CSS/layout#[.{fingerprint=smdylv69dj}]?.css.gz",
       "AssetKind": "All",
@@ -28,20 +28,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\layout.css",
+      "RelatedAsset": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\layout.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "f6m6ymjrfk",
       "Integrity": "xx80Yu6q5zd4sU+5C2lzvWXdoiaTr+q/6jlrtOpejzo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\layout.css"
+      "OriginalItemSpec": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\layout.css"
     },
     {
-      "Identity": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\5myvg4hgf2-6x4jicmfab.gz",
+      "Identity": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\5myvg4hgf2-6x4jicmfab.gz",
       "SourceId": "ResumeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ResumeProject",
       "RelativePath": "CSS/nav#[.{fingerprint=6x4jicmfab}]?.css.gz",
       "AssetKind": "All",
@@ -49,20 +49,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\nav.css",
+      "RelatedAsset": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\nav.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "jazqamohki",
       "Integrity": "1ahaDChQOKi7p9pvvuuY2oRs0nlQ+ggf3/mhkR+XX4E=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\nav.css"
+      "OriginalItemSpec": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\nav.css"
     },
     {
-      "Identity": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\6iwtc64219-xysyg1t3pj.gz",
+      "Identity": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\6iwtc64219-xysyg1t3pj.gz",
       "SourceId": "ResumeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ResumeProject",
       "RelativePath": "CSS/comments#[.{fingerprint=xysyg1t3pj}]?.css.gz",
       "AssetKind": "All",
@@ -70,20 +70,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\comments.css",
+      "RelatedAsset": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\comments.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "w5ntppdm1k",
       "Integrity": "hCfOGhyV7+gHSgvVdRYJkK10XSxckaT1xU96e/6bkmE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\comments.css"
+      "OriginalItemSpec": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\comments.css"
     },
     {
-      "Identity": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\bn2mvh9rh7-m0sv8gz1z8.gz",
+      "Identity": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\bn2mvh9rh7-m0sv8gz1z8.gz",
       "SourceId": "ResumeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ResumeProject",
       "RelativePath": "CSS/reset#[.{fingerprint=m0sv8gz1z8}]?.css.gz",
       "AssetKind": "All",
@@ -91,20 +91,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\reset.css",
+      "RelatedAsset": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\reset.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "ywq5adqglz",
       "Integrity": "fqqUaih0fN3CMmlYyY+ft9Wd86LlRFieqoNeBTi89xE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\reset.css"
+      "OriginalItemSpec": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\reset.css"
     },
     {
-      "Identity": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\dho87qvdnx-h6i05a23xc.gz",
+      "Identity": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\dho87qvdnx-h6i05a23xc.gz",
       "SourceId": "ResumeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ResumeProject",
       "RelativePath": "CSS/dropdown#[.{fingerprint=h6i05a23xc}]?.css.gz",
       "AssetKind": "All",
@@ -112,20 +112,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\dropdown.css",
+      "RelatedAsset": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\dropdown.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "nzr3st469n",
       "Integrity": "jV80/1uvYxmP0/2IXLzVeI1mmnW+cTaO6qB6wqHqPoM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\dropdown.css"
+      "OriginalItemSpec": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\dropdown.css"
     },
     {
-      "Identity": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\fvthxdpqdu-lrg3lttkdo.gz",
+      "Identity": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\fvthxdpqdu-lrg3lttkdo.gz",
       "SourceId": "ResumeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ResumeProject",
       "RelativePath": "CSS/settings#[.{fingerprint=lrg3lttkdo}]?.css.gz",
       "AssetKind": "All",
@@ -133,20 +133,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\settings.css",
+      "RelatedAsset": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\settings.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "by50astkfh",
       "Integrity": "3dcgUeZHMsjzcavIdXFjA0c3fd4gS/+s+h+z9QS1ebg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\settings.css"
+      "OriginalItemSpec": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\settings.css"
     },
     {
-      "Identity": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\kb03a262xt-k9veecv8h3.gz",
+      "Identity": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\kb03a262xt-k9veecv8h3.gz",
       "SourceId": "ResumeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ResumeProject",
       "RelativePath": "JScript/script#[.{fingerprint=k9veecv8h3}]?.js.gz",
       "AssetKind": "All",
@@ -154,20 +154,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\JScript\\script.js",
+      "RelatedAsset": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\JScript\\script.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "w2kfzlipk4",
       "Integrity": "mBU9zX4uN2KN6QxaJVZC66nwjdwaRAsAfbgreeYPhZk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\JScript\\script.js"
+      "OriginalItemSpec": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\JScript\\script.js"
     },
     {
-      "Identity": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\u868rl2k7o-4xg35sii06.gz",
+      "Identity": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\u868rl2k7o-4xg35sii06.gz",
       "SourceId": "ResumeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ResumeProject",
       "RelativePath": "CSS/button#[.{fingerprint=4xg35sii06}]?.css.gz",
       "AssetKind": "All",
@@ -175,20 +175,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\button.css",
+      "RelatedAsset": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\button.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "rwtgmnvgw9",
       "Integrity": "lYIQcyO0EyycooYc3gdEk5Jk6bwhRcGArKD1MbJYkvw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\button.css"
+      "OriginalItemSpec": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\button.css"
     },
     {
-      "Identity": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\button.css",
+      "Identity": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\button.css",
       "SourceId": "ResumeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\",
       "BasePath": "_content/ResumeProject",
       "RelativePath": "CSS/button#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -206,10 +206,10 @@
       "OriginalItemSpec": "wwwroot\\CSS\\button.css"
     },
     {
-      "Identity": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\comments.css",
+      "Identity": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\comments.css",
       "SourceId": "ResumeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\",
       "BasePath": "_content/ResumeProject",
       "RelativePath": "CSS/comments#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -227,10 +227,10 @@
       "OriginalItemSpec": "wwwroot\\CSS\\comments.css"
     },
     {
-      "Identity": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\dropdown.css",
+      "Identity": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\dropdown.css",
       "SourceId": "ResumeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\",
       "BasePath": "_content/ResumeProject",
       "RelativePath": "CSS/dropdown#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -248,10 +248,10 @@
       "OriginalItemSpec": "wwwroot\\CSS\\dropdown.css"
     },
     {
-      "Identity": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\layout.css",
+      "Identity": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\layout.css",
       "SourceId": "ResumeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\",
       "BasePath": "_content/ResumeProject",
       "RelativePath": "CSS/layout#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -269,10 +269,10 @@
       "OriginalItemSpec": "wwwroot\\CSS\\layout.css"
     },
     {
-      "Identity": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\nav.css",
+      "Identity": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\nav.css",
       "SourceId": "ResumeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\",
       "BasePath": "_content/ResumeProject",
       "RelativePath": "CSS/nav#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -290,10 +290,10 @@
       "OriginalItemSpec": "wwwroot\\CSS\\nav.css"
     },
     {
-      "Identity": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\reset.css",
+      "Identity": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\reset.css",
       "SourceId": "ResumeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\",
       "BasePath": "_content/ResumeProject",
       "RelativePath": "CSS/reset#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -311,10 +311,10 @@
       "OriginalItemSpec": "wwwroot\\CSS\\reset.css"
     },
     {
-      "Identity": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\settings.css",
+      "Identity": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\settings.css",
       "SourceId": "ResumeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\",
       "BasePath": "_content/ResumeProject",
       "RelativePath": "CSS/settings#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -332,10 +332,10 @@
       "OriginalItemSpec": "wwwroot\\CSS\\settings.css"
     },
     {
-      "Identity": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\JScript\\script.js",
+      "Identity": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\JScript\\script.js",
       "SourceId": "ResumeProject",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\",
       "BasePath": "_content/ResumeProject",
       "RelativePath": "JScript/script#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -356,7 +356,7 @@
   "Endpoints": [
     {
       "Route": "CSS/button.4xg35sii06.css",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\u868rl2k7o-4xg35sii06.gz",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\u868rl2k7o-4xg35sii06.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -419,7 +419,7 @@
     },
     {
       "Route": "CSS/button.4xg35sii06.css",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\button.css",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\button.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -464,7 +464,7 @@
     },
     {
       "Route": "CSS/button.4xg35sii06.css.gz",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\u868rl2k7o-4xg35sii06.gz",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\u868rl2k7o-4xg35sii06.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -517,7 +517,7 @@
     },
     {
       "Route": "CSS/button.css",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\u868rl2k7o-4xg35sii06.gz",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\u868rl2k7o-4xg35sii06.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -572,7 +572,7 @@
     },
     {
       "Route": "CSS/button.css",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\button.css",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\button.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -609,7 +609,7 @@
     },
     {
       "Route": "CSS/button.css.gz",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\u868rl2k7o-4xg35sii06.gz",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\u868rl2k7o-4xg35sii06.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -654,7 +654,7 @@
     },
     {
       "Route": "CSS/comments.css",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\6iwtc64219-xysyg1t3pj.gz",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\6iwtc64219-xysyg1t3pj.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -709,7 +709,7 @@
     },
     {
       "Route": "CSS/comments.css",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\comments.css",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\comments.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -746,7 +746,7 @@
     },
     {
       "Route": "CSS/comments.css.gz",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\6iwtc64219-xysyg1t3pj.gz",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\6iwtc64219-xysyg1t3pj.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -791,7 +791,7 @@
     },
     {
       "Route": "CSS/comments.xysyg1t3pj.css",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\6iwtc64219-xysyg1t3pj.gz",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\6iwtc64219-xysyg1t3pj.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -854,7 +854,7 @@
     },
     {
       "Route": "CSS/comments.xysyg1t3pj.css",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\comments.css",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\comments.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -899,7 +899,7 @@
     },
     {
       "Route": "CSS/comments.xysyg1t3pj.css.gz",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\6iwtc64219-xysyg1t3pj.gz",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\6iwtc64219-xysyg1t3pj.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -952,7 +952,7 @@
     },
     {
       "Route": "CSS/dropdown.css",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\dho87qvdnx-h6i05a23xc.gz",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\dho87qvdnx-h6i05a23xc.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1007,7 +1007,7 @@
     },
     {
       "Route": "CSS/dropdown.css",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\dropdown.css",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\dropdown.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1044,7 +1044,7 @@
     },
     {
       "Route": "CSS/dropdown.css.gz",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\dho87qvdnx-h6i05a23xc.gz",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\dho87qvdnx-h6i05a23xc.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1089,7 +1089,7 @@
     },
     {
       "Route": "CSS/dropdown.h6i05a23xc.css",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\dho87qvdnx-h6i05a23xc.gz",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\dho87qvdnx-h6i05a23xc.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1152,7 +1152,7 @@
     },
     {
       "Route": "CSS/dropdown.h6i05a23xc.css",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\dropdown.css",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\dropdown.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1197,7 +1197,7 @@
     },
     {
       "Route": "CSS/dropdown.h6i05a23xc.css.gz",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\dho87qvdnx-h6i05a23xc.gz",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\dho87qvdnx-h6i05a23xc.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1250,7 +1250,7 @@
     },
     {
       "Route": "CSS/layout.css",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\0v13jbvrg6-smdylv69dj.gz",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\0v13jbvrg6-smdylv69dj.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1305,7 +1305,7 @@
     },
     {
       "Route": "CSS/layout.css",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\layout.css",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\layout.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1342,7 +1342,7 @@
     },
     {
       "Route": "CSS/layout.css.gz",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\0v13jbvrg6-smdylv69dj.gz",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\0v13jbvrg6-smdylv69dj.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1387,7 +1387,7 @@
     },
     {
       "Route": "CSS/layout.smdylv69dj.css",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\0v13jbvrg6-smdylv69dj.gz",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\0v13jbvrg6-smdylv69dj.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1450,7 +1450,7 @@
     },
     {
       "Route": "CSS/layout.smdylv69dj.css",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\layout.css",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\layout.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1495,7 +1495,7 @@
     },
     {
       "Route": "CSS/layout.smdylv69dj.css.gz",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\0v13jbvrg6-smdylv69dj.gz",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\0v13jbvrg6-smdylv69dj.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1548,7 +1548,7 @@
     },
     {
       "Route": "CSS/nav.6x4jicmfab.css",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\5myvg4hgf2-6x4jicmfab.gz",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\5myvg4hgf2-6x4jicmfab.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1611,7 +1611,7 @@
     },
     {
       "Route": "CSS/nav.6x4jicmfab.css",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\nav.css",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\nav.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1656,7 +1656,7 @@
     },
     {
       "Route": "CSS/nav.6x4jicmfab.css.gz",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\5myvg4hgf2-6x4jicmfab.gz",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\5myvg4hgf2-6x4jicmfab.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1709,7 +1709,7 @@
     },
     {
       "Route": "CSS/nav.css",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\5myvg4hgf2-6x4jicmfab.gz",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\5myvg4hgf2-6x4jicmfab.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1764,7 +1764,7 @@
     },
     {
       "Route": "CSS/nav.css",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\nav.css",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\nav.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1801,7 +1801,7 @@
     },
     {
       "Route": "CSS/nav.css.gz",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\5myvg4hgf2-6x4jicmfab.gz",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\5myvg4hgf2-6x4jicmfab.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1846,7 +1846,7 @@
     },
     {
       "Route": "CSS/reset.css",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\bn2mvh9rh7-m0sv8gz1z8.gz",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\bn2mvh9rh7-m0sv8gz1z8.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1901,7 +1901,7 @@
     },
     {
       "Route": "CSS/reset.css",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\reset.css",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\reset.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1938,7 +1938,7 @@
     },
     {
       "Route": "CSS/reset.css.gz",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\bn2mvh9rh7-m0sv8gz1z8.gz",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\bn2mvh9rh7-m0sv8gz1z8.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1983,7 +1983,7 @@
     },
     {
       "Route": "CSS/reset.m0sv8gz1z8.css",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\bn2mvh9rh7-m0sv8gz1z8.gz",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\bn2mvh9rh7-m0sv8gz1z8.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2046,7 +2046,7 @@
     },
     {
       "Route": "CSS/reset.m0sv8gz1z8.css",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\reset.css",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\reset.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2091,7 +2091,7 @@
     },
     {
       "Route": "CSS/reset.m0sv8gz1z8.css.gz",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\bn2mvh9rh7-m0sv8gz1z8.gz",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\bn2mvh9rh7-m0sv8gz1z8.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2144,7 +2144,7 @@
     },
     {
       "Route": "CSS/settings.css",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\fvthxdpqdu-lrg3lttkdo.gz",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\fvthxdpqdu-lrg3lttkdo.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2199,7 +2199,7 @@
     },
     {
       "Route": "CSS/settings.css",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\settings.css",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\settings.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2236,7 +2236,7 @@
     },
     {
       "Route": "CSS/settings.css.gz",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\fvthxdpqdu-lrg3lttkdo.gz",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\fvthxdpqdu-lrg3lttkdo.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2281,7 +2281,7 @@
     },
     {
       "Route": "CSS/settings.lrg3lttkdo.css",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\fvthxdpqdu-lrg3lttkdo.gz",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\fvthxdpqdu-lrg3lttkdo.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2344,7 +2344,7 @@
     },
     {
       "Route": "CSS/settings.lrg3lttkdo.css",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\settings.css",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\CSS\\settings.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2389,7 +2389,7 @@
     },
     {
       "Route": "CSS/settings.lrg3lttkdo.css.gz",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\fvthxdpqdu-lrg3lttkdo.gz",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\fvthxdpqdu-lrg3lttkdo.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2442,7 +2442,7 @@
     },
     {
       "Route": "JScript/script.js",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\kb03a262xt-k9veecv8h3.gz",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\kb03a262xt-k9veecv8h3.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2497,7 +2497,7 @@
     },
     {
       "Route": "JScript/script.js",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\JScript\\script.js",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\JScript\\script.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2534,7 +2534,7 @@
     },
     {
       "Route": "JScript/script.js.gz",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\kb03a262xt-k9veecv8h3.gz",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\kb03a262xt-k9veecv8h3.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2579,7 +2579,7 @@
     },
     {
       "Route": "JScript/script.k9veecv8h3.js",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\kb03a262xt-k9veecv8h3.gz",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\kb03a262xt-k9veecv8h3.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2642,7 +2642,7 @@
     },
     {
       "Route": "JScript/script.k9veecv8h3.js",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\JScript\\script.js",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\wwwroot\\JScript\\script.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2687,7 +2687,7 @@
     },
     {
       "Route": "JScript/script.k9veecv8h3.js.gz",
-      "AssetFile": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\kb03a262xt-k9veecv8h3.gz",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\Debug\\net9.0\\compressed\\kb03a262xt-k9veecv8h3.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
