@@ -19,12 +19,14 @@ class Program
     static void Main(string[] args)
     {
         var builder = WebApplication.CreateBuilder(args);
-        
+
+        var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
         // Add services to the containers
         builder.Services.AddRazorPages(); // To use Razor pages
 
         // Add Identity and configure JWT authentication
-        builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlite("Data Source=ResumeProject.db"));
+        builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(connectionString));
         builder.Services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
         builder.Services.AddScoped<IUserClaimsPrincipalFactory<ApplicationUser>, ApplicationUserClaimsPrincipalFactory>();
 
