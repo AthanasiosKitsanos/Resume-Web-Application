@@ -11,12 +11,13 @@ using ResumeProject.Settings;
 using Microsoft.Extensions.Options;
 using ResumeProject.Pages.Comments;
 using ResumeProject.Extention;
+using System.Threading.Tasks;
 
 namespace ResumeProject;
 
 class Program
 {
-    static void Main(string[] args)
+    static async Task Main(string[] args)
     {
         var builder = WebApplication.CreateBuilder(args);
 
@@ -41,6 +42,14 @@ class Program
         builder.Services.AddCustomServices();
 
         var app = builder.Build();
+
+        using(var scope = app.Services.CreateScope())
+        {
+            var services = scope.ServiceProvider;
+            var userManager = scope.ServiceProvider.GetService<UserManager<ApplicationUser>>();
+            
+            await SeedData.Initialize(services, userManager!);
+        }
 
         if(!app.Environment.IsDevelopment())
         {

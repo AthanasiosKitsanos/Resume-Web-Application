@@ -36,7 +36,14 @@ public class SeedData
                 Email = userSettings.Email,
                 FirstName = userSettings.FirstName,
                 LastName = userSettings.LastName,
+                DateOfBirth = userSettings.DateOfBirth
             };
+
+            admin.Age = DateTime.Now.Year - admin.DateOfBirth.Year;
+            if(DateTime.Now.Date < admin.DateOfBirth.Date.AddYears(admin.Age))
+            {
+                admin.Age--;
+            }
 
             await userManager.CreateAsync(admin, userSettings.Password!);
             await userManager.AddToRoleAsync(admin, "Admin");
