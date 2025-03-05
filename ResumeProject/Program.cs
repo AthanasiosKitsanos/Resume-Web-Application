@@ -43,13 +43,14 @@ class Program
 
         var app = builder.Build();
 
-        using(var scope = app.Services.CreateScope())
-        {
-            var services = scope.ServiceProvider;
-            var userManager = scope.ServiceProvider.GetService<UserManager<ApplicationUser>>();
+        // No need to run this anymore, unless I use a new database
+        // using(var scope = app.Services.CreateScope())
+        // {
+        //     var services = scope.ServiceProvider;
+        //     var userManager = scope.ServiceProvider.GetService<UserManager<ApplicationUser>>();
             
-            await SeedData.Initialize(services, userManager!);
-        }
+        //     await SeedData.Initialize(services, userManager!);
+        // }
 
         if(!app.Environment.IsDevelopment())
         {

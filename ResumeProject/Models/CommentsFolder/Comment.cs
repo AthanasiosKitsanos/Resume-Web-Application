@@ -13,13 +13,5 @@ namespace ResumeProject.Models
         public string CommentText { get; set; } = string.Empty;  // The comment content
 
         public DateTime CreatedAt { get; set; } = DateTime.Now;  // When the comment was created
-
-        // Foreign key to ApplicationUser
-        [Required]
-        public string? UserId { get; set; }
-
-        // Navigation property to the ApplicationUser
-        [ForeignKey(nameof(UserId))]
-        public ApplicationUser User { get; set; } = null!;
     }
 }

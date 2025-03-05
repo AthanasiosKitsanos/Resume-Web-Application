@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\ResumeProject.csproj": {}
+    "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\ResumeProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\ResumeProject.csproj": {
+    "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\ResumeProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\ResumeProject.csproj",
+        "projectUniqueName": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\ResumeProject.csproj",
         "projectName": "ResumeProject",
-        "projectPath": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\ResumeProject.csproj",
+        "projectPath": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\ResumeProject.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\",
+        "outputPath": "c:\\Users\\PC\\source\\repos\\Portofolio\\ResumeWebApp\\ResumeProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\VShared\\NuGetPackages"

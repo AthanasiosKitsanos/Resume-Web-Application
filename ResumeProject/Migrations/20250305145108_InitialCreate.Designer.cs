@@ -12,7 +12,7 @@ using ResumeProject.ContextDb;
 namespace ResumeProject.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250304223803_InitialCreate")]
+    [Migration("20250305145108_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -249,13 +249,7 @@ namespace ResumeProject.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("UserId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
                     b.HasKey("Id");
-
-                    b.HasIndex("UserId");
 
                     b.ToTable("Comments");
                 });
@@ -333,29 +327,18 @@ namespace ResumeProject.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("ResumeProject.Models.Comment", b =>
-                {
-                    b.HasOne("ResumeProject.Models.ApplicationUser", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("User");
-                });
-
             modelBuilder.Entity("ResumeProject.Models.UserComment", b =>
                 {
                     b.HasOne("ResumeProject.Models.Comment", "Comment")
                         .WithMany()
                         .HasForeignKey("CommentId")
-                        .OnDelete(DeleteBehavior.NoAction)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("ResumeProject.Models.ApplicationUser", "User")
                         .WithMany()
                         .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.NoAction)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Comment");

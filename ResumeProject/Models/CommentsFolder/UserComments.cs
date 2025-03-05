@@ -6,7 +6,6 @@ namespace ResumeProject.Models
     public class UserComment
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public string Id { get; set; } = Guid.NewGuid().ToString(); // Primary key for this join entity
 
         // Foreign key to ApplicationUser

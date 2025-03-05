@@ -31,7 +31,6 @@ public class CreateCommentsService
         var comment = new Comment
         {
             CommentText = input.Text,
-            UserId = userId
         };
 
         _dbcontext.Comments.Add(comment);
