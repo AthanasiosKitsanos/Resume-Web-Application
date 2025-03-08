@@ -43,14 +43,9 @@ namespace ResumeProject.Pages.Account
     
             var result = await _registerService.RegisterUserAsync(Input);
 
-            if(!result.Succeeded)
+            if(result is null)
             {
-                foreach(var error in result.Errors)
-                {
-                    ModelState.AddModelError(string.Empty, error.Description);
-                }
-
-                return Page();
+                return null!;
             }
 
             return RedirectToPage("/Account/Login");
