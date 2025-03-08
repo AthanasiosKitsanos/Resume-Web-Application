@@ -12,12 +12,11 @@ using Microsoft.Extensions.Options;
 using ResumeProject.Pages.Comments;
 using ResumeProject.Extention;
 using System.Threading.Tasks;
-
 namespace ResumeProject;
 
 class Program
 {
-    static async Task Main(string[] args)
+    static void Main(string[] args)
     {
         var builder = WebApplication.CreateBuilder(args);
 
